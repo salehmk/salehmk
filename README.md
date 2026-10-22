@@ -102,7 +102,7 @@ passions: [Bridging Pure Mathematics with Real-World Data]
 | **[asac-sql-portfolio](https://github.com/salehmk/asac-sql-portfolio)** | Advanced SQL queries, schema design, aggregations, and business data analysis. | `SQL` `PostgreSQL` `RDBMS` | [View Repo](https://github.com/salehmk/asac-sql-portfolio) |
 | **[Sunnah-Data](https://github.com/salehmk/Sunnah-Data)** | Data collection, text processing, and analysis using interactive computational notebooks. | `Python` `Jupyter` `NLP` | [View Repo](https://github.com/salehmk/Sunnah-Data) |
 | **[football-logos](https://github.com/salehmk/football-logos)** | Image and data exploration project analyzing sports club branding and classification. | `Python` `Jupyter` `Data Science` | [View Repo](https://github.com/salehmk/football-logos) |
-| **[MarkdownMash](https://github.com/salehmk/MarkdownMash)** | Lightweight, real-time interactive quiz application for classrooms and live events. | `JavaScript` `Node.js` `Web` | [View Repo](https://github.com/salehmk/MarkdownMash) |
+| **[ZipCompressor](https://github.com/salehmk/ZipCompressor)** | Python automation script to compress files and directories individually with clean archiving. | `Python` `Automation` `Utility` | [View Repo](https://github.com/salehmk/ZipCompressor) |
 | **[apex-barbershop](https://github.com/salehmk/apex-gentleman-barbershop)** | Modern responsive web platform showcasing services, gallery, and customer booking flow. | `HTML5` `CSS3` `JavaScript` | [View Repo](https://github.com/salehmk/apex-gentleman-barbershop) |
 
 ---
@@ -178,11 +178,11 @@ passions: [Bridging Pure Mathematics with Real-World Data]
       <img src="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=football-logos&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&icon_color=0969DA&text_color=24292F" width="48.5%" alt="football-logos" />
     </picture>
   </a>
-  <a href="https://github.com/salehmk/MarkdownMash">
+  <a href="https://github.com/salehmk/apex-gentleman-barbershop">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=MarkdownMash&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=06B6D4&text_color=94A3B8" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=MarkdownMash&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&icon_color=0969DA&text_color=24292F" />
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=MarkdownMash&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&icon_color=0969DA&text_color=24292F" width="48.5%" alt="MarkdownMash" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=apex-gentleman-barbershop&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=06B6D4&text_color=94A3B8" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=apex-gentleman-barbershop&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&icon_color=0969DA&text_color=24292F" />
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=apex-gentleman-barbershop&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&icon_color=0969DA&text_color=24292F" width="48.5%" alt="apex-gentleman-barbershop" />
     </picture>
   </a>
 </div>
