@@ -7,10 +7,7 @@
 ## 📁 محتويات هذا المجلد:
 1. **[README.md](./README.md)**: الملف الأساسي الذي يظهر على صفحتك الشخصية في GitHub.
 2. **[preview.html](./preview.html)**: صفحة ويب تفاعلية لمعاينة التصميم والشكل النهائي قبل أو أثناء النشر في متصفحك.
-3. **[assets/](./assets/)**:
-   - `header-wave.svg`: بنر التموج العلوي الاحترافي.
-   - `footer-wave.svg`: بنر التموج السفلي المتناسق.
-4. **[.github/workflows/snake.yml](./.github/workflows/snake.yml)**: حركة الثعبان التلقائية (GitHub Actions) التي تأكل مساهماتك على GitHub مثل الصفحة المرجعية.
+3. **[.github/workflows/snake.yml](./.github/workflows/snake.yml)**: حركة الثعبان التلقائية (GitHub Actions) التي تأكل مساهماتك على GitHub مثل الصفحة المرجعية.
 
 ---
 

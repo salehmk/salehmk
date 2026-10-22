@@ -1,13 +1,8 @@
-<p align="center">
-  <img src="./assets/header-wave.svg" width="100%" alt="Header Banner" />
-</p>
-
 <div align="center">
 
   <h1>
     <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" alt="Waving Hand" width="38" height="38" vertical-align="middle" />
     Hi, I'm Saleh
-    <img src="https://api.dicebear.com/9.x/bottts-neutral/svg?seed=salehmk&radius=50&size=38" alt="Saleh Avatar" width="38" height="38" vertical-align="middle" />
   </h1>
 
   <a href="https://git.io/typing-svg">
@@ -25,10 +20,6 @@
 
   <p align="center">
     <img src="https://komarev.com/ghpvc/?username=salehmk&label=Profile%20Views&color=7c3aed&style=flat-square" alt="Profile Views" />
-  </p>
-
-  <p align="center">
-    <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="460" alt="Data Analytics & Machine Learning Workspace" />
   </p>
 
 </div>
@@ -188,7 +179,3 @@ passions: [Bridging Pure Mathematics with Real-World Data]
 </div>
 
 ---
-
-<p align="center">
-  <img src="./assets/footer-wave.svg" width="100%" alt="Footer Banner" />
-</p>
