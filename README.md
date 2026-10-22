@@ -116,16 +116,16 @@ passions: [Bridging Pure Mathematics with Real-World Data]
 <div align="center">
   <a href="https://github.com/salehmk">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=salehmk&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=06B6D4&text_color=94A3B8" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=salehmk&show_icons=true&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&icon_color=0969DA&text_color=24292F" />
-      <img src="https://github-readme-stats.vercel.app/api?username=salehmk&show_icons=true&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&icon_color=0969DA&text_color=24292F" alt="Saleh's GitHub Stats" height="180" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=salehmk&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=06B6D4&text_color=94A3B8" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=salehmk&show_icons=true&include_all_commits=true&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&icon_color=0969DA&text_color=24292F" />
+      <img src="https://github-readme-stats.vercel.app/api?username=salehmk&show_icons=true&include_all_commits=true&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&icon_color=0969DA&text_color=24292F" alt="Saleh's GitHub Stats" height="205" />
     </picture>
   </a>
   <a href="https://github.com/salehmk">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=salehmk&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&text_color=94A3B8" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=salehmk&layout=compact&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&text_color=24292F" />
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=salehmk&layout=compact&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&text_color=24292F" alt="Most Used Languages" height="180" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=salehmk&layout=donut&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&text_color=94A3B8" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=salehmk&layout=donut&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&text_color=24292F" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=salehmk&layout=donut&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&text_color=24292F" alt="Most Used Languages" height="205" />
     </picture>
   </a>
 </div>
@@ -140,6 +140,26 @@ passions: [Bridging Pure Mathematics with Real-World Data]
       <img src="https://github-readme-streak-stats.herokuapp.com/?user=salehmk&theme=default&hide_border=false&border=D0D7DE&background=FFFFFF&ring=6F42C1&fire=EA4AAA&currStreakNum=0969DA&sideNums=6F42C1&dates=57606A" alt="Saleh's Streak Stats" width="98%" />
     </picture>
   </a>
+</div>
+
+<br/>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=salehmk&theme=tokyonight&no-bg=true&no-frame=true&margin-w=12&row=1&column=7" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy.vercel.app/?username=salehmk&theme=flat&no-bg=true&no-frame=true&margin-w=12&row=1&column=7" />
+    <img src="https://github-profile-trophy.vercel.app/?username=salehmk&theme=flat&no-bg=true&no-frame=true&margin-w=12&row=1&column=7" alt="Saleh's GitHub Trophies" width="100%" />
+  </picture>
+</div>
+
+<br/>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=salehmk&theme=tokyo-night&area=true&hide_border=true&bg_color=0D1117&color=8B5CF6&line=06B6D4&point=A78BFA" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=salehmk&theme=github-light&area=true&hide_border=false&border=D0D7DE&bg_color=FFFFFF&color=6F42C1&line=0969DA&point=6F42C1" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=salehmk&theme=github-light&area=true&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&color=6F42C1&line=0969DA&point=6F42C1" alt="Saleh's Activity Graph" width="98%" />
+  </picture>
 </div>
 
 ---
