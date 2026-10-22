@@ -5,8 +5,9 @@
 <div align="center">
 
   <h1>
-    <img src="https://api.dicebear.com/9.x/bottts-neutral/svg?seed=salehmk&radius=50&size=38" alt="Saleh" width="38" height="38" vertical-align="middle" />
+    <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" alt="Waving Hand" width="38" height="38" vertical-align="middle" />
     Hi, I'm Saleh
+    <img src="https://api.dicebear.com/9.x/bottts-neutral/svg?seed=salehmk&radius=50&size=38" alt="Saleh Avatar" width="38" height="38" vertical-align="middle" />
   </h1>
 
   <a href="https://git.io/typing-svg">
@@ -26,11 +27,15 @@
     <img src="https://komarev.com/ghpvc/?username=salehmk&label=Profile%20Views&color=7c3aed&style=flat-square" alt="Profile Views" />
   </p>
 
+  <p align="center">
+    <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="460" alt="Data Analytics & Machine Learning Workspace" />
+  </p>
+
 </div>
 
 ---
 
-### <img src="https://api.dicebear.com/9.x/icons/svg?seed=user&size=20" width="20" height="20" vertical-align="middle" /> About Me
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" alt="About Me" width="30" height="30" vertical-align="middle" /> About Me
 
 ```yaml
 name: Saleh
@@ -42,20 +47,19 @@ strengths: [Probability & Statistics, Linear Algebra, ML Modeling, SQL & BigQuer
 passions: [Bridging Pure Mathematics with Real-World Data]
 ```
 
-- <img src="https://api.dicebear.com/9.x/icons/svg?seed=award&size=16" width="16" height="16" /> **Education:** Hold a **Master's degree (M.Sc.) in Mathematics** with a deep foundation in analytical and abstract problem solving.
-- <img src="https://api.dicebear.com/9.x/icons/svg?seed=cloud&size=16" width="16" height="16" /> **Machine Learning:** Training and developing **Machine Learning Models** at cloud scale using **[Google Cloud BigQuery (BigQuery ML)](https://console.cloud.google.com/bigquery)**.
-- <img src="https://api.dicebear.com/9.x/icons/svg?seed=compass&size=16" width="16" height="16" /> **Mathematics & Statistics:** Leveraging mathematical modeling and statistical analysis to extract deep insights from complex data.
-- <img src="https://api.dicebear.com/9.x/icons/svg?seed=code&size=16" width="16" height="16" /> **Technical Stack:** Utilizing **Python**, **SQL**, and **Jupyter** for data exploration, numerical computation, and algorithms.
-- <img src="https://api.dicebear.com/9.x/icons/svg?seed=cpu&size=16" width="16" height="16" /> **Core Strengths:** Linear Algebra, Probability & Statistics, Calculus, and Mathematical Optimization.
-- <img src="https://api.dicebear.com/9.x/icons/svg?seed=git&size=16" width="16" height="16" /> **Collaboration:** Open to collaborating on **Machine Learning**, **Data Science**, and **Applied Mathematics** projects.
-- <img src="https://api.dicebear.com/9.x/icons/svg?seed=terminal&size=16" width="16" height="16" /> **Discussion:** Ask me about **BigQuery ML, Mathematics, Statistical Modeling, Python for Data, and SQL Queries**.
-- <img src="https://api.dicebear.com/9.x/icons/svg?seed=link&size=16" width="16" height="16" /> **Contact:** Reach me on GitHub: [@salehmk](https://github.com/salehmk)
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Brain.png" width="22" height="22" vertical-align="middle" /> **Education:** Hold a **Master's degree (M.Sc.) in Mathematics** with a deep foundation in analytical and abstract problem solving.
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" width="22" height="22" vertical-align="middle" /> **Machine Learning:** Training and developing **Machine Learning Models** at cloud scale using **[Google Cloud BigQuery (BigQuery ML)](https://console.cloud.google.com/bigquery)**.
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Compass.png" width="22" height="22" vertical-align="middle" /> **Mathematics & Statistics:** Leveraging mathematical modeling, calculus, and statistical inference to extract deep insights from complex data.
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Fire.png" width="22" height="22" vertical-align="middle" /> **Core Strengths:** Linear Algebra, Probability & Statistics, Mathematical Optimization, and Algorithmic Thinking.
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" width="22" height="22" vertical-align="middle" /> **Collaboration:** Open to collaborating on **Machine Learning**, **Data Science**, and **Applied Mathematics** projects.
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" width="22" height="22" vertical-align="middle" /> **Discussion:** Ask me about **BigQuery ML, Mathematics, Statistical Modeling, Python for Data, and SQL Queries**.
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" width="22" height="22" vertical-align="middle" /> **Contact:** Reach me on GitHub: [@salehmk](https://github.com/salehmk)
 
 ---
 
-### <img src="https://api.dicebear.com/9.x/icons/svg?seed=terminal&size=20" width="20" height="20" vertical-align="middle" /> Tech Stack
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" alt="Tech Stack" width="28" height="28" vertical-align="middle" /> Tech Stack
 
-#### <img src="https://api.dicebear.com/9.x/icons/svg?seed=compass&size=18" width="18" height="18" vertical-align="middle" /> Mathematics & Data Science
+#### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Brain.png" width="22" height="22" vertical-align="middle" /> Mathematics & Data Science
 <p>
   <img src="https://img.shields.io/badge/Mathematics-M.Sc.-7C3AED?style=for-the-badge" alt="Mathematics" />
   <img src="https://img.shields.io/badge/Statistics-Probability-0284C7?style=for-the-badge" alt="Statistics" />
@@ -67,7 +71,7 @@ passions: [Bridging Pure Mathematics with Real-World Data]
   <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
 </p>
 
-#### <img src="https://api.dicebear.com/9.x/icons/svg?seed=cloud&size=18" width="18" height="18" vertical-align="middle" /> Cloud & BigQuery ML
+#### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Cloud.png" width="22" height="22" vertical-align="middle" /> Cloud & BigQuery ML
 <p>
   <a href="https://console.cloud.google.com/bigquery" target="_blank">
     <img src="https://img.shields.io/badge/Google_Cloud_BigQuery-669DF6?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Google Cloud BigQuery" />
@@ -75,14 +79,14 @@ passions: [Bridging Pure Mathematics with Real-World Data]
   <img src="https://img.shields.io/badge/BigQuery_ML-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="BigQuery ML" />
 </p>
 
-#### <img src="https://api.dicebear.com/9.x/icons/svg?seed=database&size=18" width="18" height="18" vertical-align="middle" /> Databases & Querying
+#### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Compass.png" width="22" height="22" vertical-align="middle" /> Databases & Querying
 <p>
   <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
   <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
 </p>
 
-#### <img src="https://api.dicebear.com/9.x/icons/svg?seed=cpu&size=18" width="18" height="18" vertical-align="middle" /> Tools & Environments
+#### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" width="22" height="22" vertical-align="middle" /> Tools & Environments
 <p>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
@@ -91,10 +95,10 @@ passions: [Bridging Pure Mathematics with Real-World Data]
 
 ---
 
-### <img src="https://api.dicebear.com/9.x/icons/svg?seed=folder&size=20" width="20" height="20" vertical-align="middle" /> Featured Projects
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Featured Projects" width="28" height="28" vertical-align="middle" /> Featured Projects
 
 | Project | Description | Tech Stack | Link |
-| :--- | :--- | :--- | :---: |
+| :--- | :--- | :--- | :--- |
 | **[asac-sql-portfolio](https://github.com/salehmk/asac-sql-portfolio)** | Advanced SQL queries, schema design, aggregations, and business data analysis. | `SQL` `PostgreSQL` `RDBMS` | [View Repo](https://github.com/salehmk/asac-sql-portfolio) |
 | **[Sunnah-Data](https://github.com/salehmk/Sunnah-Data)** | Data collection, text processing, and analysis using interactive computational notebooks. | `Python` `Jupyter` `NLP` | [View Repo](https://github.com/salehmk/Sunnah-Data) |
 | **[football-logos](https://github.com/salehmk/football-logos)** | Image and data exploration project analyzing sports club branding and classification. | `Python` `Jupyter` `Data Science` | [View Repo](https://github.com/salehmk/football-logos) |
@@ -103,7 +107,7 @@ passions: [Bridging Pure Mathematics with Real-World Data]
 
 ---
 
-### <img src="https://api.dicebear.com/9.x/icons/svg?seed=activity&size=20" width="20" height="20" vertical-align="middle" /> GitHub Stats & Activity
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Fire.png" alt="Stats" width="28" height="28" vertical-align="middle" /> GitHub Stats & Activity
 
 <div align="center">
   <!-- Snake Animation eating GitHub Contributions -->
@@ -147,7 +151,7 @@ passions: [Bridging Pure Mathematics with Real-World Data]
 
 ---
 
-### <img src="https://api.dicebear.com/9.x/icons/svg?seed=bookmark&size=20" width="20" height="20" vertical-align="middle" /> Top Repositories
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Top Repos" width="28" height="28" vertical-align="middle" /> Top Repositories
 
 <div align="center">
   <a href="https://github.com/salehmk/asac-sql-portfolio">
