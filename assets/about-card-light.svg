@@ -5,17 +5,24 @@
       <stop offset="100%" stop-color="#f8fafc"/>
     </linearGradient>
     <linearGradient id="borderGradLight" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.5"/>
-      <stop offset="50%" stop-color="#0284c7" stop-opacity="0.4"/>
-      <stop offset="100%" stop-color="#059669" stop-opacity="0.5"/>
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.45"/>
+      <stop offset="50%" stop-color="#0284c7" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#059669" stop-opacity="0.45"/>
+    </linearGradient>
+    <linearGradient id="headerBgLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f1f5f9"/>
     </linearGradient>
     <filter id="shadowLight" x="-5%" y="-5%" width="110%" height="110%">
-      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#64748b" flood-opacity="0.15"/>
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#475569" flood-opacity="0.12"/>
     </filter>
   </defs>
 
   <style>
-    .title-text-light { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace; font-size: 12.5px; fill: #475569; font-weight: 600; }
+    .title-text-light { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace; font-size: 12px; fill: #64748b; font-weight: 500; }
+    .tab-text-light { font-family: "Fira Code", "JetBrains Mono", Consolas, monospace; font-size: 12px; fill: #0f172a; font-weight: 600; }
+    .tab-icon-light { font-family: "Fira Code", monospace; font-size: 11px; fill: #d97706; font-weight: 800; }
+    .tag-label-light { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 11px; fill: #6d28d9; font-weight: 700; letter-spacing: 0.3px; }
     .code-text-light { font-family: "Fira Code", "JetBrains Mono", Consolas, "Courier New", monospace; font-size: 13.5px; }
     .brace-light { fill: #e11d48; font-weight: 700; }
     .key-light { fill: #0284c7; font-weight: 600; }
@@ -30,22 +37,40 @@
   <!-- Main Card Container -->
   <rect x="2" y="2" width="796" height="286" rx="14" fill="url(#cardBgLight)" stroke="url(#borderGradLight)" stroke-width="1.8" filter="url(#shadowLight)"/>
 
-  <!-- Window Header -->
-  <rect x="2" y="2" width="796" height="42" rx="14" fill="#f1f5f9"/>
-  <rect x="2" y="32" width="796" height="12" fill="#f1f5f9"/>
+  <!-- Window Header with Gradient and Crisp Bottom Border -->
+  <rect x="2" y="2" width="796" height="42" rx="14" fill="url(#headerBgLight)"/>
+  <rect x="2" y="32" width="796" height="12" fill="url(#headerBgLight)"/>
   <line x1="2" y1="44" x2="798" y2="44" stroke="#e2e8f0" stroke-width="1.2"/>
 
-  <!-- macOS Window Controls -->
+  <!-- macOS Window Controls with Subtle Highlights -->
   <circle cx="24" cy="22" r="6" fill="#ff5f56"/>
+  <circle cx="24" cy="22" r="5.5" stroke="#e0443e" stroke-width="0.8" fill="none"/>
   <circle cx="44" cy="22" r="6" fill="#ffbd2e"/>
+  <circle cx="44" cy="22" r="5.5" stroke="#dea123" stroke-width="0.8" fill="none"/>
   <circle cx="64" cy="22" r="6" fill="#27c93f"/>
+  <circle cx="64" cy="22" r="5.5" stroke="#1aab29" stroke-width="0.8" fill="none"/>
 
-  <!-- Window Title -->
-  <text x="400" y="26" text-anchor="middle" class="title-text-light">saleh@cloud: ~/profile/about.json</text>
+  <!-- Editor Active Tab (Light Mode Card Appearance) -->
+  <rect x="88" y="8" width="136" height="28" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+  <!-- JSON Icon { } -->
+  <text x="100" y="26" class="tab-icon-light">{ }</text>
+  <text x="122" y="26" class="tab-text-light">about.json</text>
+  <!-- Tiny close X -->
+  <path d="M 210 19 L 216 25 M 216 19 L 210 25" stroke="#94a3b8" stroke-width="1.2" stroke-linecap="round"/>
 
-  <!-- Right Side Tag -->
-  <rect x="685" y="12" width="95" height="20" rx="10" fill="rgba(124, 58, 237, 0.08)" stroke="#7c3aed" stroke-width="1"/>
-  <text x="732" y="25" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="11" fill="#7c3aed" font-weight="700">⚡ Live Bio</text>
+  <!-- Terminal Breadcrumb Path in Center -->
+  <text x="440" y="26" text-anchor="middle" class="title-text-light">saleh@cloud: ~/profile</text>
+
+  <!-- Right Side Live Tag with Vector Icon -->
+  <rect x="676" y="10" width="108" height="24" rx="12" fill="rgba(124, 58, 237, 0.08)" stroke="#7c3aed" stroke-width="1"/>
+  <!-- Live Glowing Green Radar Dot -->
+  <circle cx="692" cy="22" r="5.5" fill="#059669" fill-opacity="0.25"/>
+  <circle cx="692" cy="22" r="3.5" fill="#059669"/>
+  <!-- Vector Lightning Bolt -->
+  <g transform="translate(704, 15)">
+    <path d="M5 0 L1 7 H5 L4 13 L11 5 H6.5 Z" fill="#d97706"/>
+  </g>
+  <text x="736" y="26" class="tag-label-light">Live Bio</text>
 
   <!-- Code Body -->
   <g transform="translate(32, 72)" class="code-text-light">
@@ -81,7 +106,7 @@
     </text>
 
     <text x="24" y="168">
-      <tspan class="key-light">"location"</tspan><tspan class="colon-light">: </tspan><tspan class="string-light">"Jordan 🇯🇴"</tspan>
+      <tspan class="key-light">"location"</tspan><tspan class="colon-light">: </tspan><tspan class="string-light">"Jordan"</tspan>
     </text>
 
     <text x="0" y="196" class="brace-light">}</text>
