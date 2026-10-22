@@ -5,12 +5,12 @@
 <div align="center">
 
   <h1>
-    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="38" height="38" vertical-align="middle" />
+    <img src="https://api.dicebear.com/9.x/bottts-neutral/svg?seed=salehmk&radius=50&size=38" alt="Saleh" width="38" height="38" vertical-align="middle" />
     Hi, I'm Saleh
   </h1>
 
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=8B5CF6&center=true&vCenter=true&width=580&lines=M.Sc.+in+Mathematics+%F0%9F%8E%93+%7C+Data+Analyst;BigQuery+ML+%26+Model+Training;Mathematical+Modeling+%26+Statistics;Python+%26+Advanced+SQL" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=8B5CF6&center=true&vCenter=true&width=580&lines=M.Sc.+in+Mathematics+%7C+Data+Analyst;BigQuery+ML+%26+Model+Training;Mathematical+Modeling+%26+Statistics;Python+%26+Advanced+SQL" alt="Typing SVG" />
   </a>
 
   <p align="center">
@@ -30,32 +30,32 @@
 
 ---
 
-### 👨‍💻 About Me
+### <img src="https://api.dicebear.com/9.x/icons/svg?seed=user&size=20" width="20" height="20" vertical-align="middle" /> About Me
 
 ```yaml
 name: Saleh
-education: M.Sc. in Mathematics 🎓
-location: Jordan 🇯🇴
+education: M.Sc. in Mathematics
+location: Jordan
 focus: Mathematical Modeling, Data Analysis & Machine Learning
 ml_platform: Google Cloud BigQuery (BigQuery ML)
 strengths: [Probability & Statistics, Linear Algebra, ML Modeling, SQL & BigQuery]
 passions: [Bridging Pure Mathematics with Real-World Data]
 ```
 
-- 🎓 Hold a **Master's degree (M.Sc.) in Mathematics** with a deep foundation in analytical and abstract problem solving.
-- 🤖 Training and developing **Machine Learning Models** at cloud scale using **[Google Cloud BigQuery (BigQuery ML)](https://console.cloud.google.com/bigquery)**.
-- 📐 Passionate about leveraging **Mathematics & Statistics** to model complex real-world data and extract actionable insights.
-- 🔭 Utilizing **Python**, **SQL**, and **Jupyter** for data exploration, statistical analysis, and algorithmic implementations.
-- 💡 Core analytical strengths in **Linear Algebra, Probability & Statistics, Calculus, and Mathematical Optimization**.
-- 👯 Open to collaborating on **Machine Learning**, **Data Science**, and **Applied Mathematics** projects.
-- 💬 Ask me about: **BigQuery ML, Mathematics, Statistical Modeling, Python for Data, and SQL Queries**.
-- 📫 Reach me on GitHub: [@salehmk](https://github.com/salehmk)
+- <img src="https://api.dicebear.com/9.x/icons/svg?seed=award&size=16" width="16" height="16" /> **Education:** Hold a **Master's degree (M.Sc.) in Mathematics** with a deep foundation in analytical and abstract problem solving.
+- <img src="https://api.dicebear.com/9.x/icons/svg?seed=cloud&size=16" width="16" height="16" /> **Machine Learning:** Training and developing **Machine Learning Models** at cloud scale using **[Google Cloud BigQuery (BigQuery ML)](https://console.cloud.google.com/bigquery)**.
+- <img src="https://api.dicebear.com/9.x/icons/svg?seed=compass&size=16" width="16" height="16" /> **Mathematics & Statistics:** Leveraging mathematical modeling and statistical analysis to extract deep insights from complex data.
+- <img src="https://api.dicebear.com/9.x/icons/svg?seed=code&size=16" width="16" height="16" /> **Technical Stack:** Utilizing **Python**, **SQL**, and **Jupyter** for data exploration, numerical computation, and algorithms.
+- <img src="https://api.dicebear.com/9.x/icons/svg?seed=cpu&size=16" width="16" height="16" /> **Core Strengths:** Linear Algebra, Probability & Statistics, Calculus, and Mathematical Optimization.
+- <img src="https://api.dicebear.com/9.x/icons/svg?seed=git&size=16" width="16" height="16" /> **Collaboration:** Open to collaborating on **Machine Learning**, **Data Science**, and **Applied Mathematics** projects.
+- <img src="https://api.dicebear.com/9.x/icons/svg?seed=terminal&size=16" width="16" height="16" /> **Discussion:** Ask me about **BigQuery ML, Mathematics, Statistical Modeling, Python for Data, and SQL Queries**.
+- <img src="https://api.dicebear.com/9.x/icons/svg?seed=link&size=16" width="16" height="16" /> **Contact:** Reach me on GitHub: [@salehmk](https://github.com/salehmk)
 
 ---
 
-### 🛠 Tech Stack
+### <img src="https://api.dicebear.com/9.x/icons/svg?seed=terminal&size=20" width="20" height="20" vertical-align="middle" /> Tech Stack
 
-#### 📐 Mathematics & Data Science
+#### <img src="https://api.dicebear.com/9.x/icons/svg?seed=compass&size=18" width="18" height="18" vertical-align="middle" /> Mathematics & Data Science
 <p>
   <img src="https://img.shields.io/badge/Mathematics-M.Sc.-7C3AED?style=for-the-badge" alt="Mathematics" />
   <img src="https://img.shields.io/badge/Statistics-Probability-0284C7?style=for-the-badge" alt="Statistics" />
@@ -67,7 +67,7 @@ passions: [Bridging Pure Mathematics with Real-World Data]
   <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
 </p>
 
-#### ☁️ Cloud & BigQuery ML
+#### <img src="https://api.dicebear.com/9.x/icons/svg?seed=cloud&size=18" width="18" height="18" vertical-align="middle" /> Cloud & BigQuery ML
 <p>
   <a href="https://console.cloud.google.com/bigquery" target="_blank">
     <img src="https://img.shields.io/badge/Google_Cloud_BigQuery-669DF6?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Google Cloud BigQuery" />
@@ -75,14 +75,14 @@ passions: [Bridging Pure Mathematics with Real-World Data]
   <img src="https://img.shields.io/badge/BigQuery_ML-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="BigQuery ML" />
 </p>
 
-#### 🗄 Databases & Querying
+#### <img src="https://api.dicebear.com/9.x/icons/svg?seed=database&size=18" width="18" height="18" vertical-align="middle" /> Databases & Querying
 <p>
   <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
   <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
 </p>
 
-#### 🛠 Tools & Environments
+#### <img src="https://api.dicebear.com/9.x/icons/svg?seed=cpu&size=18" width="18" height="18" vertical-align="middle" /> Tools & Environments
 <p>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
@@ -91,19 +91,19 @@ passions: [Bridging Pure Mathematics with Real-World Data]
 
 ---
 
-### 🌟 Featured Projects
+### <img src="https://api.dicebear.com/9.x/icons/svg?seed=folder&size=20" width="20" height="20" vertical-align="middle" /> Featured Projects
 
 | Project | Description | Tech Stack | Link |
 | :--- | :--- | :--- | :---: |
-| 🗄️ **[asac-sql-portfolio](https://github.com/salehmk/asac-sql-portfolio)** | Advanced SQL queries, schema design, aggregations, and business data analysis. | `SQL` `PostgreSQL` `RDBMS` | [View Repo](https://github.com/salehmk/asac-sql-portfolio) |
-| 📚 **[Sunnah-Data](https://github.com/salehmk/Sunnah-Data)** | Data collection, text processing, and analysis using interactive computational notebooks. | `Python` `Jupyter` `NLP` | [View Repo](https://github.com/salehmk/Sunnah-Data) |
-| ⚽ **[football-logos](https://github.com/salehmk/football-logos)** | Image and data exploration project analyzing sports club branding and classification. | `Python` `Jupyter` `Data Science` | [View Repo](https://github.com/salehmk/football-logos) |
-| ⚡ **[MarkdownMash](https://github.com/salehmk/MarkdownMash)** | Lightweight, real-time interactive quiz application for classrooms and live events. | `JavaScript` `Node.js` `Web` | [View Repo](https://github.com/salehmk/MarkdownMash) |
-| 💈 **[apex-barbershop](https://github.com/salehmk/apex-gentleman-barbershop)** | Modern responsive web platform showcasing services, gallery, and customer booking flow. | `HTML5` `CSS3` `JavaScript` | [View Repo](https://github.com/salehmk/apex-gentleman-barbershop) |
+| **[asac-sql-portfolio](https://github.com/salehmk/asac-sql-portfolio)** | Advanced SQL queries, schema design, aggregations, and business data analysis. | `SQL` `PostgreSQL` `RDBMS` | [View Repo](https://github.com/salehmk/asac-sql-portfolio) |
+| **[Sunnah-Data](https://github.com/salehmk/Sunnah-Data)** | Data collection, text processing, and analysis using interactive computational notebooks. | `Python` `Jupyter` `NLP` | [View Repo](https://github.com/salehmk/Sunnah-Data) |
+| **[football-logos](https://github.com/salehmk/football-logos)** | Image and data exploration project analyzing sports club branding and classification. | `Python` `Jupyter` `Data Science` | [View Repo](https://github.com/salehmk/football-logos) |
+| **[MarkdownMash](https://github.com/salehmk/MarkdownMash)** | Lightweight, real-time interactive quiz application for classrooms and live events. | `JavaScript` `Node.js` `Web` | [View Repo](https://github.com/salehmk/MarkdownMash) |
+| **[apex-barbershop](https://github.com/salehmk/apex-gentleman-barbershop)** | Modern responsive web platform showcasing services, gallery, and customer booking flow. | `HTML5` `CSS3` `JavaScript` | [View Repo](https://github.com/salehmk/apex-gentleman-barbershop) |
 
 ---
 
-### 📊 GitHub Stats & Activity
+### <img src="https://api.dicebear.com/9.x/icons/svg?seed=activity&size=20" width="20" height="20" vertical-align="middle" /> GitHub Stats & Activity
 
 <div align="center">
   <!-- Snake Animation eating GitHub Contributions -->
@@ -147,7 +147,7 @@ passions: [Bridging Pure Mathematics with Real-World Data]
 
 ---
 
-### 🔝 Top Repositories
+### <img src="https://api.dicebear.com/9.x/icons/svg?seed=bookmark&size=20" width="20" height="20" vertical-align="middle" /> Top Repositories
 
 <div align="center">
   <a href="https://github.com/salehmk/asac-sql-portfolio">
