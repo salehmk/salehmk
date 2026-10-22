@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 140" width="100%" height="100%">
+  <defs>
+    <linearGradient id="grad-footer" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4f46e5" stop-opacity="0.95" />
+      <stop offset="40%" stop-color="#7c3aed" stop-opacity="0.9" />
+      <stop offset="75%" stop-color="#a855f7" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.85" />
+    </linearGradient>
+    <linearGradient id="grad-footer-subtle" x1="100%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.35" />
+      <stop offset="60%" stop-color="#3b82f6" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.15" />
+    </linearGradient>
+  </defs>
+  <path fill="url(#grad-footer-subtle)" d="M0,140 L1200,140 L1200,55 C1050,15 900,95 750,65 C600,35 450,5 300,45 C150,85 50,30 0,70 Z"></path>
+  <path fill="url(#grad-footer)" d="M0,140 L1200,140 L1200,75 C1020,25 880,110 700,75 C520,40 380,100 200,55 C90,30 0,80 0,80 Z"></path>
+</svg>

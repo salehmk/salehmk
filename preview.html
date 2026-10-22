@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>معاينة الملف التعريفي لـ GitHub | salehmk</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-body: #0d1117;
+      --bg-card: #161b22;
+      --border-color: #30363d;
+      --text-main: #c9d1d9;
+      --text-muted: #8b949e;
+      --primary: #8b5cf6;
+      --primary-light: #a78bfa;
+      --accent: #06b6d4;
+      --font-ar: 'Cairo', system-ui, sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-body);
+      color: var(--text-main);
+      font-family: var(--font-ar);
+      padding: 24px 16px;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 980px;
+      margin: 0 auto;
+    }
+
+    /* Top Control Bar */
+    .top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(22, 27, 34, 0.85);
+      backdrop-filter: blur(12px);
+      border: 1px solid var(--border-color);
+      border-radius: 14px;
+      padding: 14px 20px;
+      margin-bottom: 24px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+    }
+
+    .top-bar h2 {
+      font-size: 18px;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .badge-status {
+      font-size: 12px;
+      padding: 4px 10px;
+      border-radius: 20px;
+      background: rgba(139, 92, 246, 0.2);
+      color: var(--primary-light);
+      border: 1px solid rgba(139, 92, 246, 0.4);
+    }
+
+    .action-btn {
+      background: linear-gradient(135deg, #7c3aed, #4f46e5);
+      color: #fff;
+      border: none;
+      padding: 8px 18px;
+      border-radius: 8px;
+      font-family: var(--font-ar);
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+    }
+
+    .action-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 14px rgba(124, 58, 237, 0.45);
+    }
+
+    /* GitHub Canvas Wrapper */
+    .github-canvas {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.45);
+      direction: ltr; /* GitHub profile readme is naturally LTR */
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+
+    .canvas-header {
+      background: #090d13;
+      padding: 12px 18px;
+      border-bottom: 1px solid var(--border-color);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: var(--text-muted);
+      font-size: 13px;
+    }
+
+    .repo-pill {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 600;
+      color: #58a6ff;
+    }
+
+    .readme-body {
+      padding: 32px 36px;
+    }
+
+    .banner-img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px 8px 0 0;
+      display: block;
+    }
+
+    .center-content {
+      text-align: center;
+      margin: 24px 0;
+    }
+
+    .center-content h1 {
+      font-size: 32px;
+      font-weight: 700;
+      color: #f0f6fc;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+
+    .typing-box {
+      margin: 12px 0;
+    }
+
+    .social-badges, .tech-badges {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 16px 0;
+    }
+
+    .section-title {
+      font-size: 20px;
+      font-weight: 600;
+      color: #f0f6fc;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 8px;
+      margin: 32px 0 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .about-box {
+      background: #0d1117;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 14px 18px;
+      font-family: var(--font-mono);
+      font-size: 13px;
+      color: #8b949e;
+      margin-bottom: 16px;
+    }
+
+    .about-box span.key { color: #f47067; }
+    .about-box span.val { color: #7ee787; }
+    .about-box span.com { color: #8b949e; }
+
+    ul.clean-list {
+      list-style-type: none;
+      padding-left: 0;
+      margin-bottom: 24px;
+    }
+
+    ul.clean-list li {
+      margin: 10px 0;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: #c9d1d9;
+      font-size: 15px;
+    }
+
+    /* Projects Table */
+    .projects-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0 32px;
+    }
+
+    .projects-table th, .projects-table td {
+      border: 1px solid var(--border-color);
+      padding: 12px 14px;
+      font-size: 14px;
+    }
+
+    .projects-table th {
+      background: #0d1117;
+      color: #f0f6fc;
+      text-align: left;
+    }
+
+    .projects-table td a {
+      color: #58a6ff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .projects-table td a:hover {
+      text-decoration: underline;
+    }
+
+    .tag {
+      background: #21262d;
+      border-radius: 4px;
+      padding: 2px 6px;
+      font-size: 12px;
+      color: #79c0ff;
+      font-family: var(--font-mono);
+      margin-right: 4px;
+    }
+
+    /* Stats Grid */
+    .stats-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-top: 16px;
+    }
+
+    .stats-card {
+      flex: 1 1 45%;
+      border-radius: 10px;
+      border: 1px solid var(--border-color);
+      background: #0d1117;
+      overflow: hidden;
+      min-height: 180px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .stats-card img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* Instructions Modal / Box */
+    .guide-box {
+      margin-top: 32px;
+      background: rgba(22, 27, 34, 0.95);
+      border: 1px solid #3b82f6;
+      border-radius: 12px;
+      padding: 20px 24px;
+      direction: rtl;
+    }
+
+    .guide-box h3 {
+      color: #60a5fa;
+      font-size: 18px;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .guide-box ol {
+      padding-right: 20px;
+      color: #e2e8f0;
+      font-size: 14px;
+    }
+
+    .guide-box li {
+      margin: 8px 0;
+    }
+
+    .code-badge {
+      background: #1e293b;
+      color: #38bdf8;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: var(--font-mono);
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- Top Bar with controls -->
+    <div class="top-bar">
+      <div>
+        <h2>
+          <span>⚡ تصميم ملف GitHub الشخصي</span>
+          <span class="badge-status">جاهز للنشر على salehmk</span>
+        </h2>
+      </div>
+      <div style="display: flex; gap: 10px;">
+        <a href="README.md" download class="action-btn">
+          📥 تحميل README.md
+        </a>
+      </div>
+    </div>
+
+    <!-- Main Canvas -->
+    <div class="github-canvas">
+      <div class="canvas-header">
+        <div class="repo-pill">
+          <svg height="16" viewBox="0 0 16 16" width="16" fill="currentColor">
+            <path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"></path>
+          </svg>
+          salehmk / README.md
+        </div>
+        <div>Profile Readme</div>
+      </div>
+
+      <!-- Header SVG Wave -->
+      <img src="./assets/header-wave.svg" class="banner-img" alt="Header Wave Banner">
+
+      <div class="readme-body">
+
+        <!-- Intro -->
+        <div class="center-content">
+          <h1>
+            <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" width="36" height="36" alt="wave" />
+            Hi, I'm Saleh
+          </h1>
+
+          <div class="typing-box">
+            <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=1000&color=8B5CF6&center=true&vCenter=true&width=550&lines=Data+Analyst+%7C+Python+%26+SQL+Developer;Turning+Data+Into+Actionable+Insights;Passionate+Problem+Solver;Building+Modern+Data+%26+Web+Solutions" alt="Typing SVG" />
+          </div>
+
+          <div class="social-badges">
+            <a href="https://www.linkedin.com/in/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+            <a href="https://github.com/salehmk?tab=repositories"><img src="https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio"></a>
+          </div>
+
+          <div>
+            <img src="https://komarev.com/ghpvc/?username=salehmk&label=Profile%20Views&color=7c3aed&style=flat-square" alt="Views Counter">
+          </div>
+        </div>
+
+        <!-- About Me -->
+        <div class="section-title">👨‍💻 About Me</div>
+
+        <div class="about-box">
+          <div><span class="key">name</span>: <span class="val">Saleh</span></div>
+          <div><span class="key">location</span>: <span class="val">Jordan 🇯🇴</span></div>
+          <div><span class="key">focus</span>: <span class="val">Data Analysis, Python, SQL & Web Development</span></div>
+          <div><span class="key">passions</span>: [<span class="val">Insightful Analytics</span>, <span class="val">Clean Code</span>, <span class="val">Continuous Learning</span>]</div>
+        </div>
+
+        <ul class="clean-list">
+          <li>🔭 Currently working on <strong>Data Analysis</strong>, <strong>SQL Portfolios</strong>, and <strong>Python-driven projects</strong>.</li>
+          <li>📊 Passionate about discovering hidden patterns in data and transforming complex numbers into clear decisions.</li>
+          <li>🌱 Actively learning advanced <strong>Machine Learning</strong> and <strong>Modern Data Engineering</strong>.</li>
+          <li>👯 Open to collaborating on open-source Python, SQL, and Web projects.</li>
+          <li>💬 Ask me about: <strong>Python, SQL Queries, Pandas, Jupyter Notebooks, or Web Development</strong>.</li>
+          <li>📫 Reach me on GitHub: <strong><a href="https://github.com/salehmk" style="color: #58a6ff;">@salehmk</a></strong></li>
+        </ul>
+
+        <!-- Tech Stack -->
+        <div class="section-title">🛠 Tech Stack</div>
+
+        <p style="color: #8b949e; font-weight: 600; font-size: 13px; margin: 12px 0 6px;">📊 Data & Programming</p>
+        <div class="tech-badges" style="justify-content: flex-start;">
+          <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+          <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL">
+          <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter">
+          <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
+          <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy">
+        </div>
+
+        <p style="color: #8b949e; font-weight: 600; font-size: 13px; margin: 16px 0 6px;">🌐 Web & Frontend</p>
+        <div class="tech-badges" style="justify-content: flex-start;">
+          <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+          <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+          <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+        </div>
+
+        <p style="color: #8b949e; font-weight: 600; font-size: 13px; margin: 16px 0 6px;">🗄 Databases & Tools</p>
+        <div class="tech-badges" style="justify-content: flex-start;">
+          <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL">
+          <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+          <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite">
+          <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
+          <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+          <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code">
+        </div>
+
+        <!-- Featured Projects -->
+        <div class="section-title">🌟 Featured Projects</div>
+        <table class="projects-table">
+          <thead>
+            <tr>
+              <th>Project</th>
+              <th>Description</th>
+              <th>Tech Stack</th>
+              <th>Link</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>🗄️ <strong>asac-sql-portfolio</strong></td>
+              <td>Advanced SQL queries, schema design, aggregations, and business data analysis.</td>
+              <td><span class="tag">SQL</span><span class="tag">PostgreSQL</span></td>
+              <td><a href="https://github.com/salehmk/asac-sql-portfolio" target="_blank">View Repo</a></td>
+            </tr>
+            <tr>
+              <td>📚 <strong>Sunnah-Data</strong></td>
+              <td>Data collection, text processing, and analysis using computational notebooks.</td>
+              <td><span class="tag">Python</span><span class="tag">Jupyter</span></td>
+              <td><a href="https://github.com/salehmk/Sunnah-Data" target="_blank">View Repo</a></td>
+            </tr>
+            <tr>
+              <td>⚽ <strong>football-logos</strong></td>
+              <td>Image and data exploration project analyzing sports club branding.</td>
+              <td><span class="tag">Python</span><span class="tag">Data Science</span></td>
+              <td><a href="https://github.com/salehmk/football-logos" target="_blank">View Repo</a></td>
+            </tr>
+            <tr>
+              <td>⚡ <strong>MarkdownMash</strong></td>
+              <td>Lightweight, real-time interactive quiz application for classrooms.</td>
+              <td><span class="tag">JavaScript</span><span class="tag">Web</span></td>
+              <td><a href="https://github.com/salehmk/MarkdownMash" target="_blank">View Repo</a></td>
+            </tr>
+            <tr>
+              <td>💈 <strong>apex-barbershop</strong></td>
+              <td>Modern responsive web platform showcasing services and booking flow.</td>
+              <td><span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">JS</span></td>
+              <td><a href="https://github.com/salehmk/apex-gentleman-barbershop" target="_blank">View Repo</a></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- Stats Section -->
+        <div class="section-title">📊 GitHub Stats & Activity</div>
+
+        <div style="text-align: center; margin: 20px 0;">
+          <img src="https://raw.githubusercontent.com/salehmk/salehmk/output/github-contribution-grid-snake-dark.svg" style="width: 100%; max-width: 800px; border-radius: 8px;" alt="Contribution Snake (Note: will show once action runs on GitHub)" onerror="this.src='https://dummyimage.com/800x120/161b22/8b5cf6&text=Snake+Contribution+Graph+(Activates+via+GitHub+Action)';" />
+        </div>
+
+        <div class="stats-row">
+          <div class="stats-card">
+            <img src="https://github-readme-stats.vercel.app/api?username=salehmk&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=06B6D4&text_color=94A3B8" alt="GitHub Stats">
+          </div>
+          <div class="stats-card">
+            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=salehmk&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&text_color=94A3B8" alt="Top Languages">
+          </div>
+        </div>
+
+        <div style="margin-top: 16px;">
+          <div class="stats-card">
+            <img src="https://github-readme-streak-stats.herokuapp.com/?user=salehmk&theme=tokyonight&hide_border=true&background=0D1117&ring=8B5CF6&fire=EC4899&currStreakNum=06B6D4&sideNums=8B5CF6&dates=94A3B8" alt="Streak Stats">
+          </div>
+        </div>
+
+        <!-- Top Repos -->
+        <div class="section-title">🔝 Top Repositories</div>
+        <div class="stats-row">
+          <div class="stats-card">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=asac-sql-portfolio&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=06B6D4&text_color=94A3B8" alt="asac-sql-portfolio">
+          </div>
+          <div class="stats-card">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=Sunnah-Data&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=06B6D4&text_color=94A3B8" alt="Sunnah-Data">
+          </div>
+        </div>
+        <div class="stats-row" style="margin-top: 12px;">
+          <div class="stats-card">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=football-logos&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=06B6D4&text_color=94A3B8" alt="football-logos">
+          </div>
+          <div class="stats-card">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=MarkdownMash&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=06B6D4&text_color=94A3B8" alt="MarkdownMash">
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Footer Wave -->
+      <img src="./assets/footer-wave.svg" class="banner-img" alt="Footer Wave Banner">
+    </div>
+
+    <!-- Instructions Guide in Arabic -->
+    <div class="guide-box">
+      <h3>🚀 خطوات تفعيل هذه الصفحة على حسابك في GitHub (salehmk)</h3>
+      <ol>
+        <li>افتح موقع GitHub وسجّل الدخول، ثم أنشئ مستودعاً جديداً (New Repository).</li>
+        <li><strong>أهم خطوة:</strong> اجعل اسم المستودع مطابقاً تماماً لاسم حسابك: <span class="code-badge">salehmk</span>. ستظهر لك رسالة خضراء تخبرك بأن هذا المستودع "Special Repository".</li>
+        <li>تأكد من تحديد المستودع كـ <span class="code-badge">Public</span>.</li>
+        <li>انسخ الملفات الموجودة في هذا المجلد:
+          <ul style="margin: 6px 20px;">
+            <li><span class="code-badge">README.md</span> (الملف الرئيسي للملف الشخصي)</li>
+            <li>مجلد <span class="code-badge">assets/</span> (يحتوي على بنرات التموجات الرسومية)</li>
+            <li>مجلد <span class="code-badge">.github/workflows/snake.yml</span> (لتشغيل لعبة الثعبان التلقائية)</li>
+          </ul>
+        </li>
+        <li>ارفع الملفات (Push) إلى المستودع.</li>
+        <li>لتفعيل لعبة الثعبان: ادخل على تبويب <span class="code-badge">Settings</span> داخل المستودع ثم <span class="code-badge">Actions > General</span> وتأكد من تفعيل <span class="code-badge">Read and write permissions</span> تحت خانة Workflow permissions، وستعمل اللعبة تلقائياً كل 12 ساعة!</li>
+      </ol>
+    </div>
+
+  </div>
+
+</body>
+</html>
