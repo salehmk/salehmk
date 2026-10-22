@@ -5,8 +5,7 @@
 <div align="center">
 
   <h1>
-    <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" alt="Waving Hand" width="38" height="38" vertical-align="middle" />
-    Hi, I'm Saleh
+    Hi <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="35" height="35" vertical-align="middle" />, I'm Saleh
   </h1>
 
   <a href="https://git.io/typing-svg">

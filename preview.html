@@ -93,6 +93,25 @@
       box-shadow: 0 4px 14px rgba(124, 58, 237, 0.45);
     }
 
+    .opt-btn {
+      background: #161b22;
+      border: 1px solid var(--border-color);
+      color: var(--text-main);
+      padding: 6px 14px;
+      border-radius: 8px;
+      font-size: 13px;
+      cursor: pointer;
+      font-family: var(--font-ar);
+      transition: all 0.2s ease;
+    }
+
+    .opt-btn:hover, .opt-btn.active {
+      background: rgba(124, 58, 237, 0.3);
+      border-color: #8b5cf6;
+      color: #fff;
+      font-weight: 600;
+    }
+
     /* GitHub Canvas Wrapper */
     .github-canvas {
       background: var(--bg-card);
@@ -373,6 +392,18 @@
       </div>
     </div>
 
+    <!-- Interactive Style Switcher -->
+    <div style="background: rgba(22, 27, 34, 0.7); border: 1px solid var(--border-color); border-radius: 12px; padding: 12px 16px; margin-bottom: 20px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+      <span style="font-size: 14px; font-weight: 700; color: #a78bfa; margin-left: 8px;">🎨 جرّب بدائل الإيموجي داخل (Hi ... , I'm Saleh):</span>
+      <button class="opt-btn" onclick="setHeaderStyle(1)">✨ 1. بريق 3D Sparkles</button>
+      <button class="opt-btn" onclick="setHeaderStyle(2)">🤖 2. روبوت ذكاء اصطناعي 3D</button>
+      <button class="opt-btn" onclick="setHeaderStyle(3)">🎓 3. قبعة ماجستير 3D</button>
+      <button class="opt-btn" onclick="setHeaderStyle(4)">📈 4. مخطط نمو بيانات 3D</button>
+      <button class="opt-btn" onclick="setHeaderStyle(5)">🚀 5. صاروخ تقني 3D</button>
+      <button class="opt-btn active" onclick="setHeaderStyle(6)">👋 6. يد ترحيب 3D مجسمة</button>
+      <button class="opt-btn" onclick="setHeaderStyle(7)">⚡ 7. نص كلاسيكي نظيف</button>
+    </div>
+
     <!-- Main Canvas -->
     <div class="github-canvas" id="githubCanvas">
       <div class="canvas-header">
@@ -392,9 +423,8 @@
 
         <!-- Intro -->
         <div class="center-content">
-          <h1>
-            <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="38" height="38" alt="Waving Hand" />
-            Hi, I'm Saleh
+          <h1 id="mainHeading">
+            Hi <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" width="35" height="35" alt="Waving Hand" style="vertical-align: middle; margin: 0 4px;" />, I'm Saleh
           </h1>
 
           <div class="typing-box">
@@ -631,6 +661,23 @@
         if (img && lightSource && darkSource) {
           img.src = isLight ? lightSource.srcset : darkSource.srcset;
         }
+      });
+    }
+
+    const headerStyles = {
+      1: `Hi <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Sparkles.png" width="35" height="35" alt="Sparkles" style="vertical-align: middle; margin: 0 4px;" />, I'm Saleh`,
+      2: `Hi <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" width="35" height="35" alt="Robot" style="vertical-align: middle; margin: 0 4px;" />, I'm Saleh`,
+      3: `Hi <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Graduation%20Cap.png" width="35" height="35" alt="Graduation Cap" style="vertical-align: middle; margin: 0 4px;" />, I'm Saleh`,
+      4: `Hi <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" width="35" height="35" alt="Chart" style="vertical-align: middle; margin: 0 4px;" />, I'm Saleh`,
+      5: `Hi <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="35" height="35" alt="Rocket" style="vertical-align: middle; margin: 0 4px;" />, I'm Saleh`,
+      6: `Hi <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" width="35" height="35" alt="Waving Hand" style="vertical-align: middle; margin: 0 4px;" />, I'm Saleh`,
+      7: `Hi, I'm Saleh`
+    };
+
+    function setHeaderStyle(n) {
+      document.getElementById('mainHeading').innerHTML = headerStyles[n];
+      document.querySelectorAll('.opt-btn').forEach((btn, idx) => {
+        btn.classList.toggle('active', idx + 1 === n);
       });
     }
   </script>
