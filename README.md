@@ -10,7 +10,7 @@
   </h1>
 
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=8B5CF6&center=true&vCenter=true&width=580&lines=M.Sc.+in+Mathematics+%F0%9F%8E%93+%7C+Data+Analyst;Mathematical+Modeling+%26+Statistical+Analysis;Python+%26+SQL+Developer;Bridging+Abstract+Math+with+Applied+Data" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=8B5CF6&center=true&vCenter=true&width=580&lines=M.Sc.+in+Mathematics+%F0%9F%8E%93+%7C+Data+Analyst;BigQuery+ML+%26+Model+Training;Mathematical+Modeling+%26+Statistics;Python+%26+Advanced+SQL" alt="Typing SVG" />
   </a>
 
   <p align="center">
@@ -36,32 +36,43 @@
 name: Saleh
 education: M.Sc. in Mathematics 🎓
 location: Jordan 🇯🇴
-focus: Mathematical Modeling, Data Analysis & Statistical Computing
-strengths: [Probability & Statistics, Linear Algebra, Optimization, Algorithmic Thinking]
+focus: Mathematical Modeling, Data Analysis & Machine Learning
+ml_platform: Google Cloud BigQuery (BigQuery ML)
+strengths: [Probability & Statistics, Linear Algebra, ML Modeling, SQL & BigQuery]
 passions: [Bridging Pure Mathematics with Real-World Data]
 ```
 
 - 🎓 Hold a **Master's degree (M.Sc.) in Mathematics** with a deep foundation in analytical and abstract problem solving.
-- 📐 Passionate about leveraging **Mathematics & Statistics** to model problems and unlock insights from complex datasets.
-- 🔭 Utilizing **Python**, **SQL**, and **Jupyter** for data exploration, mathematical analysis, and structured problem-solving.
+- 🤖 Training and developing **Machine Learning Models** at cloud scale using **[Google Cloud BigQuery (BigQuery ML)](https://console.cloud.google.com/bigquery)**.
+- 📐 Passionate about leveraging **Mathematics & Statistics** to model complex real-world data and extract actionable insights.
+- 🔭 Utilizing **Python**, **SQL**, and **Jupyter** for data exploration, statistical analysis, and algorithmic implementations.
 - 💡 Core analytical strengths in **Linear Algebra, Probability & Statistics, Calculus, and Mathematical Optimization**.
-- 👯 Open to collaborating on **Data Science**, **Applied Mathematics**, and **Statistical Computing** projects.
-- 💬 Ask me about: **Mathematics, Probability & Statistics, Python for Data, and SQL Queries**.
+- 👯 Open to collaborating on **Machine Learning**, **Data Science**, and **Applied Mathematics** projects.
+- 💬 Ask me about: **BigQuery ML, Mathematics, Statistical Modeling, Python for Data, and SQL Queries**.
 - 📫 Reach me on GitHub: [@salehmk](https://github.com/salehmk)
 
 ---
 
 ### 🛠 Tech Stack
 
-#### 📐 Mathematics & Data Analysis
+#### 📐 Mathematics & Data Science
 <p>
   <img src="https://img.shields.io/badge/Mathematics-M.Sc.-7C3AED?style=for-the-badge" alt="Mathematics" />
   <img src="https://img.shields.io/badge/Statistics-Probability-0284C7?style=for-the-badge" alt="Statistics" />
+  <img src="https://img.shields.io/badge/Machine_Learning-FF6F00?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="Machine Learning" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" />
   <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
   <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+</p>
+
+#### ☁️ Cloud & BigQuery ML
+<p>
+  <a href="https://console.cloud.google.com/bigquery" target="_blank">
+    <img src="https://img.shields.io/badge/Google_Cloud_BigQuery-669DF6?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Google Cloud BigQuery" />
+  </a>
+  <img src="https://img.shields.io/badge/BigQuery_ML-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="BigQuery ML" />
 </p>
 
 #### 🗄 Databases & Querying
