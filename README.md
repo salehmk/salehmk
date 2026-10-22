@@ -140,7 +140,13 @@
   </a>
 </div>
 
+<br/>
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/salehmk/salehmk/output/github-metrics-full.svg" alt="Saleh's GitHub Metrics" width="98%" />
+</div>
+
+<br/>
 
 ---
 
