@@ -1,0 +1,63 @@
+name: Generate GitHub Metrics
+
+on:
+  schedule:
+    # Run daily at midnight UTC
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  achievements:
+    name: Generate Achievements & Trophies
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Achievements & Milestones
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics-achievements.svg
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          user: salehmk
+          committer_branch: output
+          committer_message: "chore: update achievements [skip ci]"
+          output_action: commit
+          base: ""
+          config_timezone: Asia/Amman
+          plugin_achievements: yes
+          plugin_achievements_display: detailed
+          plugin_achievements_secrets: yes
+          plugin_achievements_threshold: C
+
+  activity:
+    name: Generate Activity & Habits
+    runs-on: ubuntu-latest
+    needs: achievements
+    timeout-minutes: 10
+    steps:
+      - name: Recent Activity & Habits
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics-activity.svg
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          user: salehmk
+          committer_branch: output
+          committer_message: "chore: update activity metrics [skip ci]"
+          output_action: commit
+          base: ""
+          config_timezone: Asia/Amman
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 14
+          plugin_activity_filter: all
+          plugin_activity_timestamps: yes
