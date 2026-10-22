@@ -140,14 +140,6 @@
   </a>
 </div>
 
-<br/>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/salehmk/salehmk/output/github-metrics-full.svg" alt="Saleh's GitHub Metrics" width="98%" />
-</div>
-
-<br/>
-
 ---
 
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" alt="Top Repos" width="28" height="28" vertical-align="middle" /> Top Repositories
