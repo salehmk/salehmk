@@ -323,12 +323,20 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      padding: 6px;
     }
 
     .stats-card img {
-      width: 100%;
-      height: auto;
+      max-width: 100%;
+      height: 180px;
+      object-fit: contain;
       display: block;
+      margin: 0 auto;
+    }
+
+    .stats-card.full-width img {
+      height: auto;
+      width: 100%;
     }
 
     /* Instructions Modal / Box */
@@ -559,22 +567,22 @@
         <div class="stats-row">
           <div class="stats-card">
             <picture>
-              <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=salehmk&show_icons=true&hide_rank=true&hide=stars&include_all_commits=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=06B6D4&text_color=94A3B8" />
-              <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=salehmk&show_icons=true&hide_rank=true&hide=stars&include_all_commits=true&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&icon_color=0969DA&text_color=24292F" />
-              <img src="https://github-readme-stats.vercel.app/api?username=salehmk&show_icons=true&hide_rank=true&hide=stars&include_all_commits=true&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&icon_color=0969DA&text_color=24292F" alt="GitHub Stats">
+              <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=salehmk&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=06B6D4&text_color=94A3B8" />
+              <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=salehmk&show_icons=true&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&icon_color=0969DA&text_color=24292F" />
+              <img src="https://github-readme-stats.vercel.app/api?username=salehmk&show_icons=true&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&icon_color=0969DA&text_color=24292F" alt="GitHub Stats">
             </picture>
           </div>
           <div class="stats-card">
             <picture>
-              <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=salehmk&layout=compact&hide=html,css,javascript&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&text_color=94A3B8" />
-              <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=salehmk&layout=compact&hide=html,css,javascript&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&text_color=24292F" />
-              <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=salehmk&layout=compact&hide=html,css,javascript&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&text_color=24292F" alt="Top Languages">
+              <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=salehmk&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&text_color=94A3B8" />
+              <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=salehmk&layout=compact&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&text_color=24292F" />
+              <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=salehmk&layout=compact&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&text_color=24292F" alt="Top Languages">
             </picture>
           </div>
         </div>
 
         <div style="margin-top: 16px;">
-          <div class="stats-card">
+          <div class="stats-card full-width">
             <picture>
               <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=salehmk&theme=tokyonight&hide_border=true&background=0D1117&ring=8B5CF6&fire=EC4899&currStreakNum=06B6D4&sideNums=8B5CF6&dates=94A3B8" />
               <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=salehmk&theme=default&hide_border=false&border=D0D7DE&background=FFFFFF&ring=6F42C1&fire=EA4AAA&currStreakNum=0969DA&sideNums=6F42C1&dates=57606A" />
