@@ -1,0 +1,34 @@
+name: Generate GitHub Metrics
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  test-metrics:
+    name: Test Metrics Generation
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Quick Test Card
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics-test.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          user: salehmk
+          committer_branch: output
+          committer_message: "chore: generate test metrics [skip ci]"
+          output_action: commit
+          base: header, activity, community, repositories
+          config_timezone: Asia/Amman
+          plugins_errors_fatal: yes
