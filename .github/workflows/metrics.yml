@@ -1,6 +1,9 @@
 name: Generate GitHub Metrics
 
 on:
+  schedule:
+    # Run daily at midnight UTC
+    - cron: "0 0 * * *"
   workflow_dispatch:
   push:
     branches:
@@ -14,21 +17,39 @@ permissions:
   contents: write
 
 jobs:
-  test-metrics:
-    name: Test Metrics Generation
+  metrics:
+    name: Generate Full GitHub Metrics
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     steps:
-      - name: Quick Test Card
+      - name: Full Profile Metrics
         uses: lowlighter/metrics@latest
         with:
-          filename: github-metrics-test.svg
+          filename: github-metrics-full.svg
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           user: salehmk
           committer_branch: output
-          committer_message: "chore: generate test metrics [skip ci]"
+          committer_message: "chore: update full metrics [skip ci]"
           output_action: commit
           base: header, activity, community, repositories
           config_timezone: Asia/Amman
-          plugins_errors_fatal: yes
+          config_order: base.header, isocalendar, habits, activity
+          
+          # 3D Isometric Calendar
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          
+          # Coding Habits & Productivity
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          
+          # Recent Activity
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 14
+          plugin_activity_filter: all
+          plugin_activity_timestamps: yes
