@@ -40,13 +40,13 @@
 </p>
 
 
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Brain.png" width="22" height="22" vertical-align="middle" /> **Academic Foundation:** Hold a **Master's degree (M.Sc.) in Mathematics**, blending abstract mathematical rigor with advanced analytical modeling.
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" width="22" height="22" vertical-align="middle" /> **Cloud Machine Learning:** Architecting and training production ML models at cloud scale using **[Google Cloud BigQuery (BigQuery ML)](https://console.cloud.google.com/bigquery)**.
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Compass.png" width="22" height="22" vertical-align="middle" /> **Mathematical Rigor:** Leveraging linear algebra, probability theory, and statistical inference to extract high-dimensional insights from raw data.
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Fire.png" width="22" height="22" vertical-align="middle" /> **Core Competencies:** Quantitative Modeling, Statistical Optimization, Algorithmic Thinking, and Advanced SQL Query Engineering.
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" width="22" height="22" vertical-align="middle" /> **Open Collaboration:** Eager to collaborate on high-impact initiatives in **Machine Learning**, **Applied Mathematics**, and **Cloud Data Analytics**.
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" width="22" height="22" vertical-align="middle" /> **Let's Connect & Talk:** BigQuery ML workflows, statistical modeling, Python data science ecosystems, or scalable SQL optimization.
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" width="22" height="22" vertical-align="middle" /> **Get in Touch:** Explore my repositories or connect on GitHub: **[@salehmk](https://github.com/salehmk)**
+| Dimension | Focus & Key Highlights |
+| :--- | :--- |
+| <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Graduation%20Cap.png" width="22" height="22" vertical-align="middle" /> **Academic Foundation** | **Master of Science (M.Sc.) in Mathematics** — Advanced analytical problem solving, probability, and linear algebra |
+| <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" width="22" height="22" vertical-align="middle" /> **Cloud Machine Learning** | **[Google Cloud BigQuery (BigQuery ML)](https://console.cloud.google.com/bigquery)** — Training, deploying, and operationalizing ML models at cloud scale |
+| <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Compass.png" width="22" height="22" vertical-align="middle" /> **Mathematical Rigor** | Mathematical modeling, statistical inference, calculus, and optimization for deep predictive data insights |
+| <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Fire.png" width="22" height="22" vertical-align="middle" /> **Core Data Stack** | Advanced SQL, Python (NumPy, Pandas, Scikit-Learn), and high-performance data querying |
+| <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" width="22" height="22" vertical-align="middle" /> **Collaborations** | Open to high-impact initiatives in **Machine Learning**, **Data Science**, and **Applied Mathematics** |
 
 
 ---
