@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 110" width="100%" height="100%" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="headerGradFront" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" stop-opacity="0.95" />
+      <stop offset="35%" stop-color="#7c3aed" stop-opacity="0.95" />
+      <stop offset="70%" stop-color="#a855f7" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.85" />
+    </linearGradient>
+    <linearGradient id="headerGradBack" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.5" />
+      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.35" />
+    </linearGradient>
+  </defs>
+  <style>
+    @keyframes waveLeft {
+      0% { transform: translate3d(0, 0, 0); }
+      100% { transform: translate3d(-600px, 0, 0); }
+    }
+    @keyframes waveRight {
+      0% { transform: translate3d(-600px, 0, 0); }
+      100% { transform: translate3d(0, 0, 0); }
+    }
+    .wave-back {
+      animation: waveRight 14s linear infinite;
+    }
+    .wave-front {
+      animation: waveLeft 8s linear infinite;
+    }
+  </style>
+  <g class="wave-back">
+    <path fill="url(#headerGradBack)" d="M 0,46 C 108.0,30.0 192.0,30.0 300.0,46.0 C 408.0,62.0 492.0,62.0 600.0,46.0 C 708.0,30.0 792.0,30.0 900.0,46.0 C 1008.0,62.0 1092.0,62.0 1200.0,46.0 C 1308.0,30.0 1392.0,30.0 1500.0,46.0 C 1608.0,62.0 1692.0,62.0 1800.0,46.0 C 1908.0,30.0 1992.0,30.0 2100.0,46.0 C 2208.0,62.0 2292.0,62.0 2400.0,46.0 C 2508.0,30.0 2592.0,30.0 2700.0,46.0 C 2808.0,62.0 2892.0,62.0 3000.0,46.0 L 3000,0 L 0,0 Z" />
+  </g>
+  <g class="wave-front">
+    <path fill="url(#headerGradFront)" d="M 0,58 C 108.0,36.0 192.0,36.0 300.0,58.0 C 408.0,80.0 492.0,80.0 600.0,58.0 C 708.0,36.0 792.0,36.0 900.0,58.0 C 1008.0,80.0 1092.0,80.0 1200.0,58.0 C 1308.0,36.0 1392.0,36.0 1500.0,58.0 C 1608.0,80.0 1692.0,80.0 1800.0,58.0 C 1908.0,36.0 1992.0,36.0 2100.0,58.0 C 2208.0,80.0 2292.0,80.0 2400.0,58.0 C 2508.0,36.0 2592.0,36.0 2700.0,58.0 C 2808.0,80.0 2892.0,80.0 3000.0,58.0 L 3000,0 L 0,0 Z" />
+  </g>
+</svg>

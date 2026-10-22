@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/header-wave.svg" width="100%" alt="Header Wave" />
+</p>
+
 <div align="center">
 
   <h1>
@@ -179,3 +183,7 @@ passions: [Bridging Pure Mathematics with Real-World Data]
 </div>
 
 ---
+
+<p align="center">
+  <img src="./assets/footer-wave.svg" width="100%" alt="Footer Wave" />
+</p>
