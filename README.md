@@ -43,7 +43,7 @@
 | Dimension | Focus & Key Highlights |
 | :--- | :--- |
 | <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Graduation%20Cap.png" width="22" height="22" vertical-align="middle" /> **Academic Foundation** | **Master of Science (M.Sc.) in Mathematics** — Advanced analytical problem solving, probability, and linear algebra |
-| <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" width="22" height="22" vertical-align="middle" /> **Cloud Machine Learning** | **[Google Cloud BigQuery (BigQuery ML)](https://console.cloud.google.com/bigquery)** — Training, deploying, and operationalizing ML models at cloud scale |
+| <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" width="22" height="22" vertical-align="middle" /> **Cloud Machine Learning** | **Google Cloud BigQuery ML** — Developing, training, and deploying scalable predictive models on cloud data platforms |
 | <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Compass.png" width="22" height="22" vertical-align="middle" /> **Mathematical Rigor** | Mathematical modeling, statistical inference, calculus, and optimization for deep predictive data insights |
 | <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Fire.png" width="22" height="22" vertical-align="middle" /> **Core Data Stack** | Advanced SQL, Python (NumPy, Pandas, Scikit-Learn), and high-performance data querying |
 | <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" width="22" height="22" vertical-align="middle" /> **Collaborations** | Open to high-impact initiatives in **Machine Learning**, **Data Science**, and **Applied Mathematics** |
@@ -67,9 +67,7 @@
 
 #### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Cloud.png" width="22" height="22" vertical-align="middle" /> Cloud & BigQuery ML
 <p>
-  <a href="https://console.cloud.google.com/bigquery" target="_blank">
-    <img src="https://img.shields.io/badge/Google_Cloud_BigQuery-669DF6?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Google Cloud BigQuery" />
-  </a>
+  <img src="https://img.shields.io/badge/Google_Cloud_BigQuery-669DF6?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Google Cloud BigQuery" />
   <img src="https://img.shields.io/badge/BigQuery_ML-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="BigQuery ML" />
 </p>
 
