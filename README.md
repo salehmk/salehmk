@@ -10,7 +10,7 @@
   </h1>
 
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=8B5CF6&center=true&vCenter=true&width=550&lines=Data+Analyst+%7C+Python+%26+SQL+Developer;Turning+Data+Into+Actionable+Insights;Passionate+Problem+Solver;Building+Modern+Data+%26+Web+Solutions" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=8B5CF6&center=true&vCenter=true&width=580&lines=M.Sc.+in+Mathematics+%F0%9F%8E%93+%7C+Data+Analyst;Mathematical+Modeling+%26+Statistical+Analysis;Python+%26+SQL+Developer;Bridging+Abstract+Math+with+Applied+Data" alt="Typing SVG" />
   </a>
 
   <p align="center">
@@ -34,44 +34,45 @@
 
 ```yaml
 name: Saleh
+education: M.Sc. in Mathematics 🎓
 location: Jordan 🇯🇴
-focus: Data Analysis, Python, SQL & Web Development
-passions: [Insightful Analytics, Clean Code, Continuous Learning]
-currently_building: Exploring machine learning pipelines & data architecture
+focus: Mathematical Modeling, Data Analysis & Statistical Computing
+strengths: [Probability & Statistics, Linear Algebra, Optimization, Algorithmic Thinking]
+passions: [Bridging Pure Mathematics with Real-World Data]
 ```
 
-- 🔭 I’m currently working on **Data Analysis**, **SQL Portfolios**, and **Python-driven applications**.
-- 📊 Passionate about discovering hidden patterns in data and transforming complex data into clear, actionable stories.
-- 🌱 Actively expanding my expertise in **Machine Learning**, **Data Engineering**, and **Full-Stack Development**.
-- 👯 Open to collaborating on open-source data analytics and modern web projects.
-- 💬 Ask me about: **Python, SQL optimization, Pandas, Jupyter Notebooks, or Web Development**.
+- 🎓 Hold a **Master's degree (M.Sc.) in Mathematics** with a deep foundation in analytical and abstract problem solving.
+- 📐 Passionate about leveraging **Mathematics & Statistics** to model problems and unlock insights from complex datasets.
+- 🔭 Utilizing **Python**, **SQL**, and **Jupyter** for data exploration, mathematical analysis, and structured problem-solving.
+- 💡 Core analytical strengths in **Linear Algebra, Probability & Statistics, Calculus, and Mathematical Optimization**.
+- 👯 Open to collaborating on **Data Science**, **Applied Mathematics**, and **Statistical Computing** projects.
+- 💬 Ask me about: **Mathematics, Probability & Statistics, Python for Data, and SQL Queries**.
 - 📫 Reach me on GitHub: [@salehmk](https://github.com/salehmk)
 
 ---
 
 ### 🛠 Tech Stack
 
-#### 📊 Data & Programming
+#### 📐 Mathematics & Data Analysis
 <p>
+  <img src="https://img.shields.io/badge/Mathematics-M.Sc.-7C3AED?style=for-the-badge" alt="Mathematics" />
+  <img src="https://img.shields.io/badge/Statistics-Probability-0284C7?style=for-the-badge" alt="Statistics" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
   <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
 </p>
 
-#### 🌐 Web & Frontend
-<p>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-</p>
-
-#### 🗄 Databases & Tools
+#### 🗄 Databases & Querying
 <p>
   <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
   <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
+</p>
+
+#### 🛠 Tools & Environments
+<p>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
