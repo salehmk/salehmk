@@ -31,15 +31,10 @@
 
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" alt="About Me" width="30" height="30" vertical-align="middle" /> About Me
 
-```yaml
-name: Saleh
-education: M.Sc. in Mathematics
-location: Jordan
-focus: Mathematical Modeling, Data Analysis & Machine Learning
-ml_platform: Google Cloud BigQuery (BigQuery ML)
-strengths: [Probability & Statistics, Linear Algebra, ML Modeling, SQL & BigQuery]
-passions: [Bridging Pure Mathematics with Real-World Data]
-```
+<p align="center">
+  <img src="./assets/about-card.svg" alt="Saleh - About Me" width="100%" />
+</p>
+
 
 - <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Brain.png" width="22" height="22" vertical-align="middle" /> **Education:** Hold a **Master's degree (M.Sc.) in Mathematics** with a deep foundation in analytical and abstract problem solving.
 - <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" width="22" height="22" vertical-align="middle" /> **Machine Learning:** Training and developing **Machine Learning Models** at cloud scale using **[Google Cloud BigQuery (BigQuery ML)](https://console.cloud.google.com/bigquery)**.
