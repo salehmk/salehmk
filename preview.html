@@ -102,6 +102,48 @@
       box-shadow: 0 16px 36px rgba(0, 0, 0, 0.45);
       direction: ltr; /* GitHub profile readme is naturally LTR */
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      transition: all 0.3s ease;
+    }
+
+    /* Light Mode Simulation for preview */
+    .github-canvas.light-mode {
+      background: #ffffff !important;
+      color: #24292f !important;
+      border-color: #d0d7de !important;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.15) !important;
+    }
+    .github-canvas.light-mode .canvas-header {
+      background: #f6f8fa !important;
+      color: #57606a !important;
+      border-bottom-color: #d0d7de !important;
+    }
+    .github-canvas.light-mode .center-content h1 {
+      color: #24292f !important;
+    }
+    .github-canvas.light-mode .section-title {
+      color: #24292f !important;
+      border-bottom-color: #d0d7de !important;
+    }
+    .github-canvas.light-mode .about-box {
+      background: #f6f8fa !important;
+      border-color: #d0d7de !important;
+      color: #57606a !important;
+    }
+    .github-canvas.light-mode ul.clean-list li {
+      color: #24292f !important;
+    }
+    .github-canvas.light-mode .projects-table th {
+      background: #f6f8fa !important;
+      color: #24292f !important;
+      border-color: #d0d7de !important;
+    }
+    .github-canvas.light-mode .projects-table td {
+      border-color: #d0d7de !important;
+      color: #24292f !important;
+    }
+    .github-canvas.light-mode .stats-card {
+      background: #ffffff !important;
+      border-color: #d0d7de !important;
     }
 
     .canvas-header {
@@ -322,6 +364,9 @@
         </h2>
       </div>
       <div style="display: flex; gap: 10px;">
+        <button id="themeToggleBtn" onclick="toggleCanvasTheme()" class="action-btn" style="background: #21262d; border: 1px solid var(--border-color);">
+          ☀️ تجربة النمط الفاتح (Light Mode)
+        </button>
         <a href="README.md" download class="action-btn">
           📥 تحميل README.md
         </a>
@@ -329,7 +374,7 @@
     </div>
 
     <!-- Main Canvas -->
-    <div class="github-canvas">
+    <div class="github-canvas" id="githubCanvas">
       <div class="canvas-header">
         <div class="repo-pill">
           <svg height="16" viewBox="0 0 16 16" width="16" fill="currentColor">
@@ -475,21 +520,37 @@
         <div class="section-title">📊 GitHub Stats & Activity</div>
 
         <div style="text-align: center; margin: 20px 0;">
-          <img src="https://raw.githubusercontent.com/salehmk/salehmk/output/github-contribution-grid-snake-dark.svg" style="width: 100%; max-width: 800px; border-radius: 8px;" alt="Contribution Snake (Note: will show once action runs on GitHub)" onerror="this.src='https://dummyimage.com/800x120/161b22/8b5cf6&text=Snake+Contribution+Graph+(Activates+via+GitHub+Action)';" />
+          <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/salehmk/salehmk/output/github-contribution-grid-snake-dark.svg" />
+            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/salehmk/salehmk/output/github-contribution-grid-snake.svg" />
+            <img src="https://raw.githubusercontent.com/salehmk/salehmk/output/github-contribution-grid-snake-dark.svg" style="width: 100%; max-width: 800px; border-radius: 8px;" alt="Contribution Snake" onerror="this.src='https://dummyimage.com/800x120/161b22/8b5cf6&text=Snake+Contribution+Graph+(Activates+via+GitHub+Action)';" />
+          </picture>
         </div>
 
         <div class="stats-row">
           <div class="stats-card">
-            <img src="https://github-readme-stats.vercel.app/api?username=salehmk&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=06B6D4&text_color=94A3B8" alt="GitHub Stats">
+            <picture>
+              <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=salehmk&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=06B6D4&text_color=94A3B8" />
+              <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=salehmk&show_icons=true&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&icon_color=0969DA&text_color=24292F" />
+              <img src="https://github-readme-stats.vercel.app/api?username=salehmk&show_icons=true&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&icon_color=0969DA&text_color=24292F" alt="GitHub Stats">
+            </picture>
           </div>
           <div class="stats-card">
-            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=salehmk&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&text_color=94A3B8" alt="Top Languages">
+            <picture>
+              <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=salehmk&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&text_color=94A3B8" />
+              <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=salehmk&layout=compact&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&text_color=24292F" />
+              <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=salehmk&layout=compact&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&text_color=24292F" alt="Top Languages">
+            </picture>
           </div>
         </div>
 
         <div style="margin-top: 16px;">
           <div class="stats-card">
-            <img src="https://github-readme-streak-stats.herokuapp.com/?user=salehmk&theme=tokyonight&hide_border=true&background=0D1117&ring=8B5CF6&fire=EC4899&currStreakNum=06B6D4&sideNums=8B5CF6&dates=94A3B8" alt="Streak Stats">
+            <picture>
+              <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=salehmk&theme=tokyonight&hide_border=true&background=0D1117&ring=8B5CF6&fire=EC4899&currStreakNum=06B6D4&sideNums=8B5CF6&dates=94A3B8" />
+              <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=salehmk&theme=default&hide_border=false&border=D0D7DE&background=FFFFFF&ring=6F42C1&fire=EA4AAA&currStreakNum=0969DA&sideNums=6F42C1&dates=57606A" />
+              <img src="https://github-readme-streak-stats.herokuapp.com/?user=salehmk&theme=default&hide_border=false&border=D0D7DE&background=FFFFFF&ring=6F42C1&fire=EA4AAA&currStreakNum=0969DA&sideNums=6F42C1&dates=57606A" alt="Streak Stats">
+            </picture>
           </div>
         </div>
 
@@ -497,18 +558,34 @@
         <div class="section-title">🔝 Top Repositories</div>
         <div class="stats-row">
           <div class="stats-card">
-            <img src="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=asac-sql-portfolio&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=06B6D4&text_color=94A3B8" alt="asac-sql-portfolio">
+            <picture>
+              <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=asac-sql-portfolio&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=06B6D4&text_color=94A3B8" />
+              <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=asac-sql-portfolio&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&icon_color=0969DA&text_color=24292F" />
+              <img src="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=asac-sql-portfolio&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&icon_color=0969DA&text_color=24292F" alt="asac-sql-portfolio">
+            </picture>
           </div>
           <div class="stats-card">
-            <img src="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=Sunnah-Data&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=06B6D4&text_color=94A3B8" alt="Sunnah-Data">
+            <picture>
+              <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=Sunnah-Data&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=06B6D4&text_color=94A3B8" />
+              <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=Sunnah-Data&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&icon_color=0969DA&text_color=24292F" />
+              <img src="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=Sunnah-Data&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&icon_color=0969DA&text_color=24292F" alt="Sunnah-Data">
+            </picture>
           </div>
         </div>
         <div class="stats-row" style="margin-top: 12px;">
           <div class="stats-card">
-            <img src="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=football-logos&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=06B6D4&text_color=94A3B8" alt="football-logos">
+            <picture>
+              <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=football-logos&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=06B6D4&text_color=94A3B8" />
+              <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=football-logos&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&icon_color=0969DA&text_color=24292F" />
+              <img src="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=football-logos&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&icon_color=0969DA&text_color=24292F" alt="football-logos">
+            </picture>
           </div>
           <div class="stats-card">
-            <img src="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=MarkdownMash&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=06B6D4&text_color=94A3B8" alt="MarkdownMash">
+            <picture>
+              <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=MarkdownMash&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=06B6D4&text_color=94A3B8" />
+              <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=MarkdownMash&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&icon_color=0969DA&text_color=24292F" />
+              <img src="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=MarkdownMash&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&icon_color=0969DA&text_color=24292F" alt="MarkdownMash">
+            </picture>
           </div>
         </div>
 
@@ -538,6 +615,26 @@
     </div>
 
   </div>
+
+  <script>
+    function toggleCanvasTheme() {
+      const canvas = document.getElementById('githubCanvas');
+      const btn = document.getElementById('themeToggleBtn');
+      canvas.classList.toggle('light-mode');
+      const isLight = canvas.classList.contains('light-mode');
+      btn.innerHTML = isLight ? '🌙 العودة للنمط الداكن (Dark Mode)' : '☀️ تجربة النمط الفاتح (Light Mode)';
+
+      // Swap images inside picture for browsers that don't dynamically react to preview CSS
+      canvas.querySelectorAll('picture').forEach(pic => {
+        const lightSource = pic.querySelector('source[media*="light"]');
+        const darkSource = pic.querySelector('source[media*="dark"]');
+        const img = pic.querySelector('img');
+        if (img && lightSource && darkSource) {
+          img.src = isLight ? lightSource.srcset : darkSource.srcset;
+        }
+      });
+    }
+  </script>
 
 </body>
 </html>
