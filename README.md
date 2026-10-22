@@ -140,25 +140,7 @@
   </a>
 </div>
 
-<br/>
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=salehmk&theme=tokyonight&no-bg=true&no-frame=true&margin-w=12&row=1&column=7" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-trophy.vercel.app/?username=salehmk&theme=flat&no-bg=true&no-frame=true&margin-w=12&row=1&column=7" />
-    <img src="https://github-profile-trophy.vercel.app/?username=salehmk&theme=flat&no-bg=true&no-frame=true&margin-w=12&row=1&column=7" alt="Saleh's GitHub Trophies" width="100%" />
-  </picture>
-</div>
-
-<br/>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=salehmk&theme=tokyo-night&area=true&hide_border=true&bg_color=0D1117&color=8B5CF6&line=06B6D4&point=A78BFA" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=salehmk&theme=github-light&area=true&hide_border=false&border=D0D7DE&bg_color=FFFFFF&color=6F42C1&line=0969DA&point=6F42C1" />
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=salehmk&theme=github-light&area=true&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&color=6F42C1&line=0969DA&point=6F42C1" alt="Saleh's Activity Graph" width="98%" />
-  </picture>
-</div>
 
 ---
 
