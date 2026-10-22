@@ -150,16 +150,16 @@ passions: [Bridging Pure Mathematics with Real-World Data]
 <div align="center">
   <a href="https://github.com/salehmk/asac-sql-portfolio">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=asac-sql-portfolio&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=06B6D4&text_color=94A3B8" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=asac-sql-portfolio&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&icon_color=0969DA&text_color=24292F" />
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=asac-sql-portfolio&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&icon_color=0969DA&text_color=24292F" width="48.5%" alt="asac-sql-portfolio" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=asac-sql-portfolio&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=06B6D4&text_color=94A3B8&description_lines_count=2" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=asac-sql-portfolio&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&icon_color=0969DA&text_color=24292F&description_lines_count=2" />
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=asac-sql-portfolio&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&icon_color=0969DA&text_color=24292F&description_lines_count=2" width="48.5%" alt="asac-sql-portfolio" />
     </picture>
   </a>
   <a href="https://github.com/salehmk/Sunnah-Data">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=Sunnah-Data&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=06B6D4&text_color=94A3B8" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=Sunnah-Data&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&icon_color=0969DA&text_color=24292F" />
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=Sunnah-Data&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&icon_color=0969DA&text_color=24292F" width="48.5%" alt="Sunnah-Data" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=Sunnah-Data&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=06B6D4&text_color=94A3B8&description_lines_count=2" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=Sunnah-Data&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&icon_color=0969DA&text_color=24292F&description_lines_count=2" />
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=Sunnah-Data&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&icon_color=0969DA&text_color=24292F&description_lines_count=2" width="48.5%" alt="Sunnah-Data" />
     </picture>
   </a>
 </div>
@@ -167,16 +167,16 @@ passions: [Bridging Pure Mathematics with Real-World Data]
 <div align="center">
   <a href="https://github.com/salehmk/football-logos">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=football-logos&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=06B6D4&text_color=94A3B8" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=football-logos&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&icon_color=0969DA&text_color=24292F" />
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=football-logos&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&icon_color=0969DA&text_color=24292F" width="48.5%" alt="football-logos" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=football-logos&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=06B6D4&text_color=94A3B8&description_lines_count=2" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=football-logos&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&icon_color=0969DA&text_color=24292F&description_lines_count=2" />
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=football-logos&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&icon_color=0969DA&text_color=24292F&description_lines_count=2" width="48.5%" alt="football-logos" />
     </picture>
   </a>
   <a href="https://github.com/salehmk/apex-gentleman-barbershop">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=apex-gentleman-barbershop&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=06B6D4&text_color=94A3B8" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=apex-gentleman-barbershop&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&icon_color=0969DA&text_color=24292F" />
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=apex-gentleman-barbershop&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&icon_color=0969DA&text_color=24292F" width="48.5%" alt="apex-gentleman-barbershop" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=apex-gentleman-barbershop&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=06B6D4&text_color=94A3B8&description_lines_count=2" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=apex-gentleman-barbershop&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&icon_color=0969DA&text_color=24292F&description_lines_count=2" />
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=apex-gentleman-barbershop&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=6F42C1&icon_color=0969DA&text_color=24292F&description_lines_count=2" width="48.5%" alt="apex-gentleman-barbershop" />
     </picture>
   </a>
 </div>
