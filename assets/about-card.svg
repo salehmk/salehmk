@@ -1,21 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 290" width="100%" height="100%">
   <defs>
     <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0b0f19"/>
-      <stop offset="100%" stop-color="#111827"/>
+      <stop offset="0%" class="stop-bg-1"/>
+      <stop offset="100%" class="stop-bg-2"/>
     </linearGradient>
     <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.6"/>
-      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#10b981" stop-opacity="0.6"/>
+      <stop offset="0%" class="stop-border-1"/>
+      <stop offset="50%" class="stop-border-2"/>
+      <stop offset="100%" class="stop-border-3"/>
     </linearGradient>
     <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
-      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.6"/>
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.3"/>
     </filter>
   </defs>
 
   <style>
+    /* Default Dark Mode Theme */
+    .stop-bg-1 { stop-color: #0b0f19; }
+    .stop-bg-2 { stop-color: #111827; }
+    .stop-border-1 { stop-color: #8b5cf6; stop-opacity: 0.6; }
+    .stop-border-2 { stop-color: #3b82f6; stop-opacity: 0.3; }
+    .stop-border-3 { stop-color: #10b981; stop-opacity: 0.6; }
+    .window-header { fill: #131b2e; }
+    .header-line { stroke: #1e293b; }
     .title-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace; font-size: 12.5px; fill: #94a3b8; font-weight: 500; }
+    .tag-rect { fill: rgba(139, 92, 246, 0.2); stroke: #8b5cf6; }
+    .tag-text { font-family: -apple-system, sans-serif; font-size: 11px; fill: #c4b5fd; font-weight: 600; }
     .code-text { font-family: "Fira Code", "JetBrains Mono", Consolas, "Courier New", monospace; font-size: 13.5px; }
     .brace { fill: #f43f5e; font-weight: 700; }
     .key { fill: #79c0ff; font-weight: 600; }
@@ -25,15 +35,37 @@
     .math-string { fill: #c084fc; font-weight: 600; }
     .array-bracket { fill: #fbbf24; }
     .array-item { fill: #86efac; }
+
+    /* Light Mode Media Query */
+    @media (prefers-color-scheme: light) {
+      .stop-bg-1 { stop-color: #ffffff; }
+      .stop-bg-2 { stop-color: #f8fafc; }
+      .stop-border-1 { stop-color: #7c3aed; stop-opacity: 0.5; }
+      .stop-border-2 { stop-color: #0284c7; stop-opacity: 0.4; }
+      .stop-border-3 { stop-color: #059669; stop-opacity: 0.5; }
+      .window-header { fill: #f1f5f9; }
+      .header-line { stroke: #e2e8f0; }
+      .title-text { fill: #475569; font-weight: 600; }
+      .tag-rect { fill: rgba(124, 58, 237, 0.08); stroke: #7c3aed; }
+      .tag-text { fill: #7c3aed; font-weight: 700; }
+      .brace { fill: #e11d48; }
+      .key { fill: #0284c7; }
+      .colon { fill: #64748b; }
+      .string { fill: #1e293b; }
+      .highlight-string { fill: #0369a1; }
+      .math-string { fill: #7c3aed; }
+      .array-bracket { fill: #d97706; }
+      .array-item { fill: #059669; font-weight: 600; }
+    }
   </style>
 
   <!-- Main Card Container -->
   <rect x="2" y="2" width="796" height="286" rx="14" fill="url(#cardBg)" stroke="url(#borderGrad)" stroke-width="1.8" filter="url(#shadow)"/>
 
   <!-- Window Header -->
-  <rect x="2" y="2" width="796" height="42" rx="14" fill="#131b2e"/>
-  <rect x="2" y="32" width="796" height="12" fill="#131b2e"/>
-  <line x1="2" y1="44" x2="798" y2="44" stroke="#1e293b" stroke-width="1.2"/>
+  <rect x="2" y="2" width="796" height="42" rx="14" class="window-header"/>
+  <rect x="2" y="32" width="796" height="12" class="window-header"/>
+  <line x1="2" y1="44" x2="798" y2="44" class="header-line" stroke-width="1.2"/>
 
   <!-- macOS Window Controls -->
   <circle cx="24" cy="22" r="6" fill="#ff5f56"/>
@@ -44,35 +76,29 @@
   <text x="400" y="26" text-anchor="middle" class="title-text">saleh@cloud: ~/profile/about.json</text>
 
   <!-- Right Side Tag -->
-  <rect x="685" y="12" width="95" height="20" rx="10" fill="rgba(139, 92, 246, 0.2)" stroke="#8b5cf6" stroke-width="1"/>
-  <text x="732" y="25" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="11" fill="#c4b5fd" font-weight="600">⚡ Live Bio</text>
+  <rect x="685" y="12" width="95" height="20" rx="10" class="tag-rect" stroke-width="1"/>
+  <text x="732" y="25" text-anchor="middle" class="tag-text">⚡ Live Bio</text>
 
   <!-- Code Body -->
   <g transform="translate(32, 72)" class="code-text">
-    <!-- Line 1: opening brace -->
     <text x="0" y="0" class="brace">{</text>
 
-    <!-- Line 2: name -->
     <text x="24" y="24">
       <tspan class="key">"name"</tspan><tspan class="colon">: </tspan><tspan class="string">"Saleh"</tspan><tspan class="colon">,</tspan>
     </text>
 
-    <!-- Line 3: education -->
     <text x="24" y="48">
       <tspan class="key">"education"</tspan><tspan class="colon">: </tspan><tspan class="math-string">"M.Sc. in Mathematics"</tspan><tspan class="colon">,</tspan>
     </text>
 
-    <!-- Line 4: ml_platform -->
     <text x="24" y="72">
       <tspan class="key">"ml_platform"</tspan><tspan class="colon">: </tspan><tspan class="highlight-string">"Google Cloud BigQuery (BigQuery ML)"</tspan><tspan class="colon">,</tspan>
     </text>
 
-    <!-- Line 5: focus -->
     <text x="24" y="96">
       <tspan class="key">"focus"</tspan><tspan class="colon">: </tspan><tspan class="string">"Mathematical Modeling, Data Analytics &amp; Machine Learning"</tspan><tspan class="colon">,</tspan>
     </text>
 
-    <!-- Line 6: strengths -->
     <text x="24" y="120">
       <tspan class="key">"strengths"</tspan><tspan class="colon">: </tspan><tspan class="array-bracket">[</tspan>
       <tspan class="array-item">"Probability &amp; Stats"</tspan><tspan class="colon">, </tspan>
@@ -82,17 +108,14 @@
       <tspan class="array-bracket">]</tspan><tspan class="colon">,</tspan>
     </text>
 
-    <!-- Line 7: passion -->
     <text x="24" y="144">
       <tspan class="key">"passion"</tspan><tspan class="colon">: </tspan><tspan class="string">"Bridging Pure Mathematics with Real-World Data"</tspan><tspan class="colon">,</tspan>
     </text>
 
-    <!-- Line 8: location -->
     <text x="24" y="168">
       <tspan class="key">"location"</tspan><tspan class="colon">: </tspan><tspan class="string">"Jordan 🇯🇴"</tspan>
     </text>
 
-    <!-- Line 9: closing brace -->
     <text x="0" y="196" class="brace">}</text>
   </g>
 </svg>

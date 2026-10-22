@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 290" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cardBgLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </linearGradient>
+    <linearGradient id="borderGradLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#0284c7" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#059669" stop-opacity="0.5"/>
+    </linearGradient>
+    <filter id="shadowLight" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#64748b" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <style>
+    .title-text-light { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace; font-size: 12.5px; fill: #475569; font-weight: 600; }
+    .code-text-light { font-family: "Fira Code", "JetBrains Mono", Consolas, "Courier New", monospace; font-size: 13.5px; }
+    .brace-light { fill: #e11d48; font-weight: 700; }
+    .key-light { fill: #0284c7; font-weight: 600; }
+    .colon-light { fill: #64748b; }
+    .string-light { fill: #1e293b; }
+    .highlight-string-light { fill: #0369a1; font-weight: 600; }
+    .math-string-light { fill: #7c3aed; font-weight: 600; }
+    .array-bracket-light { fill: #d97706; }
+    .array-item-light { fill: #059669; font-weight: 600; }
+  </style>
+
+  <!-- Main Card Container -->
+  <rect x="2" y="2" width="796" height="286" rx="14" fill="url(#cardBgLight)" stroke="url(#borderGradLight)" stroke-width="1.8" filter="url(#shadowLight)"/>
+
+  <!-- Window Header -->
+  <rect x="2" y="2" width="796" height="42" rx="14" fill="#f1f5f9"/>
+  <rect x="2" y="32" width="796" height="12" fill="#f1f5f9"/>
+  <line x1="2" y1="44" x2="798" y2="44" stroke="#e2e8f0" stroke-width="1.2"/>
+
+  <!-- macOS Window Controls -->
+  <circle cx="24" cy="22" r="6" fill="#ff5f56"/>
+  <circle cx="44" cy="22" r="6" fill="#ffbd2e"/>
+  <circle cx="64" cy="22" r="6" fill="#27c93f"/>
+
+  <!-- Window Title -->
+  <text x="400" y="26" text-anchor="middle" class="title-text-light">saleh@cloud: ~/profile/about.json</text>
+
+  <!-- Right Side Tag -->
+  <rect x="685" y="12" width="95" height="20" rx="10" fill="rgba(124, 58, 237, 0.08)" stroke="#7c3aed" stroke-width="1"/>
+  <text x="732" y="25" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="11" fill="#7c3aed" font-weight="700">⚡ Live Bio</text>
+
+  <!-- Code Body -->
+  <g transform="translate(32, 72)" class="code-text-light">
+    <text x="0" y="0" class="brace-light">{</text>
+
+    <text x="24" y="24">
+      <tspan class="key-light">"name"</tspan><tspan class="colon-light">: </tspan><tspan class="string-light">"Saleh"</tspan><tspan class="colon-light">,</tspan>
+    </text>
+
+    <text x="24" y="48">
+      <tspan class="key-light">"education"</tspan><tspan class="colon-light">: </tspan><tspan class="math-string-light">"M.Sc. in Mathematics"</tspan><tspan class="colon-light">,</tspan>
+    </text>
+
+    <text x="24" y="72">
+      <tspan class="key-light">"ml_platform"</tspan><tspan class="colon-light">: </tspan><tspan class="highlight-string-light">"Google Cloud BigQuery (BigQuery ML)"</tspan><tspan class="colon-light">,</tspan>
+    </text>
+
+    <text x="24" y="96">
+      <tspan class="key-light">"focus"</tspan><tspan class="colon-light">: </tspan><tspan class="string-light">"Mathematical Modeling, Data Analytics &amp; Machine Learning"</tspan><tspan class="colon-light">,</tspan>
+    </text>
+
+    <text x="24" y="120">
+      <tspan class="key-light">"strengths"</tspan><tspan class="colon-light">: </tspan><tspan class="array-bracket-light">[</tspan>
+      <tspan class="array-item-light">"Probability &amp; Stats"</tspan><tspan class="colon-light">, </tspan>
+      <tspan class="array-item-light">"Linear Algebra"</tspan><tspan class="colon-light">, </tspan>
+      <tspan class="array-item-light">"SQL &amp; BigQuery"</tspan><tspan class="colon-light">, </tspan>
+      <tspan class="array-item-light">"Python"</tspan>
+      <tspan class="array-bracket-light">]</tspan><tspan class="colon-light">,</tspan>
+    </text>
+
+    <text x="24" y="144">
+      <tspan class="key-light">"passion"</tspan><tspan class="colon-light">: </tspan><tspan class="string-light">"Bridging Pure Mathematics with Real-World Data"</tspan><tspan class="colon-light">,</tspan>
+    </text>
+
+    <text x="24" y="168">
+      <tspan class="key-light">"location"</tspan><tspan class="colon-light">: </tspan><tspan class="string-light">"Jordan 🇯🇴"</tspan>
+    </text>
+
+    <text x="0" y="196" class="brace-light">}</text>
+  </g>
+</svg>

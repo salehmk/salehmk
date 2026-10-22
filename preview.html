@@ -463,7 +463,11 @@
 
         <div id="aboutContainer">
           <div align="center" style="margin: 14px 0 20px;">
-            <img src="./assets/about-card.svg" alt="Saleh - About Me" style="width: 100%; max-width: 820px; border-radius: 14px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); display: block;" />
+            <picture>
+              <source media="(prefers-color-scheme: dark)" srcset="./assets/about-card-dark.svg">
+              <source media="(prefers-color-scheme: light)" srcset="./assets/about-card-light.svg">
+              <img id="aboutCardImg" src="./assets/about-card-dark.svg" alt="Saleh - About Me" style="width: 100%; max-width: 820px; border-radius: 14px; box-shadow: 0 10px 30px rgba(0,0,0,0.15); display: block;" />
+            </picture>
           </div>
         </div>
 
@@ -711,7 +715,11 @@
 
     const aboutStyles = {
       1: `<div align="center" style="margin: 14px 0 20px;">
-            <img src="./assets/about-card.svg" alt="Saleh - About Me" style="width: 100%; max-width: 820px; border-radius: 14px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); display: block;" />
+            <picture>
+              <source media="(prefers-color-scheme: dark)" srcset="./assets/about-card-dark.svg">
+              <source media="(prefers-color-scheme: light)" srcset="./assets/about-card-light.svg">
+              <img id="aboutCardImg" src="./assets/about-card-dark.svg" alt="Saleh - About Me" style="width: 100%; max-width: 820px; border-radius: 14px; box-shadow: 0 10px 30px rgba(0,0,0,0.15); display: block;" />
+            </picture>
           </div>`,
       2: `<table width="100%" style="border-collapse: collapse; margin: 14px 0 20px;">
             <tr>
@@ -791,6 +799,14 @@
       for (let i = 1; i <= 4; i++) {
         const btn = document.getElementById('aboutBtn' + i);
         if (btn) btn.classList.toggle('active', i === n);
+      }
+      const isLight = document.getElementById('githubCanvas').classList.contains('light-mode');
+      if (isLight) {
+        document.querySelectorAll('#aboutContainer picture').forEach(pic => {
+          const lightSource = pic.querySelector('source[media*="light"]');
+          const img = pic.querySelector('img');
+          if (img && lightSource) img.src = lightSource.srcset;
+        });
       }
     }
   </script>

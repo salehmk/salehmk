@@ -32,7 +32,11 @@
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" alt="About Me" width="30" height="30" vertical-align="middle" /> About Me
 
 <p align="center">
-  <img src="./assets/about-card.svg" alt="Saleh - About Me" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/about-card-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/about-card-light.svg">
+    <img src="./assets/about-card-dark.svg" alt="Saleh - About Me" width="100%" />
+  </picture>
 </p>
 
 
