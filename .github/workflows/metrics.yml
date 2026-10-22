@@ -24,7 +24,7 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: Achievements & Milestones
-        uses: lowlighter/metrics@latest
+        uses: dkhokhlov/metrics@master
         with:
           filename: github-metrics-achievements.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -43,7 +43,7 @@ jobs:
           plugin_achievements_only: polyglot, stargazer, sponsor, deployer, member, maintainer, developer, scripter, packager, explorer, infographile
 
       - name: Recent Activity & Habits
-        uses: lowlighter/metrics@latest
+        uses: dkhokhlov/metrics@master
         with:
           filename: github-metrics-activity.svg
           token: ${{ secrets.METRICS_TOKEN }}
