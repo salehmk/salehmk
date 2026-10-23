@@ -114,16 +114,16 @@
 <div align="center">
   <a href="https://github.com/salehmk">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=salehmk&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=FF2A55&icon_color=E11D48&text_color=94A3B8" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=salehmk&show_icons=true&include_all_commits=true&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=BE123C&icon_color=DC2626&text_color=24292F" />
-      <img src="https://github-readme-stats.vercel.app/api?username=salehmk&show_icons=true&include_all_commits=true&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=BE123C&icon_color=DC2626&text_color=24292F" alt="Saleh's GitHub Stats" height="205" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=salehmk&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0D1117&title_color=FF2A55&icon_color=FF2A55&text_color=FFFFFF" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=salehmk&show_icons=true&include_all_commits=true&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=BE123C&icon_color=DC2626&text_color=0F172A" />
+      <img src="https://github-readme-stats.vercel.app/api?username=salehmk&show_icons=true&include_all_commits=true&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=BE123C&icon_color=DC2626&text_color=0F172A" alt="Saleh's GitHub Stats" height="205" />
     </picture>
   </a>
   <a href="https://github.com/salehmk">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=salehmk&layout=donut&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=FF2A55&text_color=94A3B8" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=salehmk&layout=donut&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=BE123C&text_color=24292F" />
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=salehmk&layout=donut&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=BE123C&text_color=24292F" alt="Most Used Languages" height="205" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=salehmk&layout=donut&hide_border=true&bg_color=0D1117&title_color=FF2A55&text_color=FFFFFF" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=salehmk&layout=donut&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=BE123C&text_color=0F172A" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=salehmk&layout=donut&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=BE123C&text_color=0F172A" alt="Most Used Languages" height="205" />
     </picture>
   </a>
 </div>
@@ -133,9 +133,9 @@
 <div align="center">
   <a href="https://github.com/salehmk">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=salehmk&theme=tokyonight&hide_border=true&background=0D1117&ring=E11D48&fire=FF2A55&currStreakNum=FF2A55&sideNums=BE123C&dates=94A3B8" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=salehmk&theme=default&hide_border=false&border=D0D7DE&background=FFFFFF&ring=BE123C&fire=E11D48&currStreakNum=DC2626&sideNums=9F1239&dates=57606A" />
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=salehmk&theme=default&hide_border=false&border=D0D7DE&background=FFFFFF&ring=BE123C&fire=E11D48&currStreakNum=DC2626&sideNums=9F1239&dates=57606A" alt="Saleh's Streak Stats" width="98%" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=salehmk&hide_border=true&background=0D1117&ring=FF2A55&fire=FF2A55&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FF2A55&sideLabels=FF2A55&dates=FFFFFF&stroke=30363D" />
+      <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=salehmk&hide_border=false&border=D0D7DE&background=FFFFFF&ring=BE123C&fire=E11D48&currStreakNum=0F172A&sideNums=0F172A&currStreakLabel=BE123C&sideLabels=BE123C&dates=334155&stroke=E2E8F0" />
+      <img src="https://streak-stats.demolab.com/?user=salehmk&hide_border=false&border=D0D7DE&background=FFFFFF&ring=BE123C&fire=E11D48&currStreakNum=0F172A&sideNums=0F172A&currStreakLabel=BE123C&sideLabels=BE123C&dates=334155&stroke=E2E8F0" alt="Saleh's Streak Stats" width="98%" />
     </picture>
   </a>
 </div>
@@ -147,16 +147,16 @@
 <div align="center">
   <a href="https://github.com/salehmk/asac-sql-portfolio">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=asac-sql-portfolio&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=FF2A55&icon_color=E11D48&text_color=94A3B8&description_lines_count=2" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=asac-sql-portfolio&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=BE123C&icon_color=DC2626&text_color=24292F&description_lines_count=2" />
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=asac-sql-portfolio&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=BE123C&icon_color=DC2626&text_color=24292F&description_lines_count=2" width="48.5%" alt="asac-sql-portfolio" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=asac-sql-portfolio&hide_border=true&bg_color=0D1117&title_color=FF2A55&icon_color=FF2A55&text_color=FFFFFF&description_lines_count=2" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=asac-sql-portfolio&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=BE123C&icon_color=DC2626&text_color=0F172A&description_lines_count=2" />
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=asac-sql-portfolio&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=BE123C&icon_color=DC2626&text_color=0F172A&description_lines_count=2" width="48.5%" alt="asac-sql-portfolio" />
     </picture>
   </a>
   <a href="https://github.com/salehmk/Sunnah-Data">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=Sunnah-Data&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=FF2A55&icon_color=E11D48&text_color=94A3B8&description_lines_count=2" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=Sunnah-Data&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=BE123C&icon_color=DC2626&text_color=24292F&description_lines_count=2" />
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=Sunnah-Data&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=BE123C&icon_color=DC2626&text_color=24292F&description_lines_count=2" width="48.5%" alt="Sunnah-Data" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=Sunnah-Data&hide_border=true&bg_color=0D1117&title_color=FF2A55&icon_color=FF2A55&text_color=FFFFFF&description_lines_count=2" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=Sunnah-Data&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=BE123C&icon_color=DC2626&text_color=0F172A&description_lines_count=2" />
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=Sunnah-Data&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=BE123C&icon_color=DC2626&text_color=0F172A&description_lines_count=2" width="48.5%" alt="Sunnah-Data" />
     </picture>
   </a>
 </div>
@@ -164,16 +164,16 @@
 <div align="center">
   <a href="https://github.com/salehmk/football-logos">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=football-logos&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=FF2A55&icon_color=E11D48&text_color=94A3B8&description_lines_count=2" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=football-logos&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=BE123C&icon_color=DC2626&text_color=24292F&description_lines_count=2" />
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=football-logos&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=BE123C&icon_color=DC2626&text_color=24292F&description_lines_count=2" width="48.5%" alt="football-logos" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=football-logos&hide_border=true&bg_color=0D1117&title_color=FF2A55&icon_color=FF2A55&text_color=FFFFFF&description_lines_count=2" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=football-logos&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=BE123C&icon_color=DC2626&text_color=0F172A&description_lines_count=2" />
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=football-logos&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=BE123C&icon_color=DC2626&text_color=0F172A&description_lines_count=2" width="48.5%" alt="football-logos" />
     </picture>
   </a>
   <a href="https://github.com/salehmk/ZipCompressor">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=ZipCompressor&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=FF2A55&icon_color=E11D48&text_color=94A3B8&description_lines_count=2" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=ZipCompressor&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=BE123C&icon_color=DC2626&text_color=24292F&description_lines_count=2" />
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=ZipCompressor&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=BE123C&icon_color=DC2626&text_color=24292F&description_lines_count=2" width="48.5%" alt="ZipCompressor" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=ZipCompressor&hide_border=true&bg_color=0D1117&title_color=FF2A55&icon_color=FF2A55&text_color=FFFFFF&description_lines_count=2" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=ZipCompressor&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=BE123C&icon_color=DC2626&text_color=0F172A&description_lines_count=2" />
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=salehmk&repo=ZipCompressor&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=BE123C&icon_color=DC2626&text_color=0F172A&description_lines_count=2" width="48.5%" alt="ZipCompressor" />
     </picture>
   </a>
 </div>

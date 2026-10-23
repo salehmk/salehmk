@@ -39,22 +39,23 @@
     .title-text {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace;
       font-size: 13px;
-      fill: #94a3b8;
-      font-weight: 500;
+      fill: #cbd5e1;
+      font-weight: 600;
       letter-spacing: 0.5px;
     }
     .code-text {
       font-family: "Fira Code", "JetBrains Mono", Consolas, "Courier New", monospace;
-      font-size: 13.5px;
+      font-size: 14.5px;
+      font-weight: 500;
     }
     .brace { fill: #f43f5e; font-weight: 700; }
-    .key { fill: #79c0ff; font-weight: 600; }
-    .colon { fill: #94a3b8; }
-    .string { fill: #a5d6ff; }
+    .key { fill: #60a5fa; font-weight: 700; }
+    .colon { fill: #cbd5e1; }
+    .string { fill: #f1f5f9; }
     .highlight-string { fill: #38bdf8; font-weight: 600; }
-    .math-string { fill: #FB7185; font-weight: 600; }
-    .array-bracket { fill: #fbbf24; }
-    .array-item { fill: #86efac; }
+    .math-string { fill: #FB7185; font-weight: 700; }
+    .array-bracket { fill: #fbbf24; font-weight: 700; }
+    .array-item { fill: #86efac; font-weight: 600; }
 
     /* Terminal Blinking Cursor */
     .cursor-dark {
