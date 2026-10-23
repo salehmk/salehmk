@@ -121,9 +121,9 @@
   </a>
   <a href="https://github.com/salehmk">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=salehmk&layout=donut&hide_border=true&bg_color=0D1117&title_color=FF2A55&text_color=FFFFFF" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=salehmk&layout=donut&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=BE123C&text_color=0F172A" />
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=salehmk&layout=donut&theme=default&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=BE123C&text_color=0F172A" alt="Most Used Languages" height="205" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=salehmk&layout=pie&hide_border=true&bg_color=0D1117&title_color=FF2A55&text_color=FFFFFF" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=salehmk&layout=pie&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=BE123C&text_color=0F172A" />
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=salehmk&layout=pie&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=BE123C&text_color=0F172A" alt="Most Used Languages" height="205" />
     </picture>
   </a>
 </div>
