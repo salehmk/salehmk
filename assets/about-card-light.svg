@@ -8,20 +8,20 @@
 
     <!-- Animated Flowing Border Gradient -->
     <linearGradient id="borderGradLight" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.6">
-        <animate attributeName="stop-color" values="#7c3aed;#0284c7;#059669;#e11d48;#7c3aed" dur="6s" repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#DC2626" stop-opacity="0.65">
+        <animate attributeName="stop-color" values="#DC2626;#EA580C;#E11D48;#BE123C;#DC2626" dur="6s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" stop-color="#0284c7" stop-opacity="0.45">
-        <animate attributeName="stop-color" values="#0284c7;#059669;#e11d48;#7c3aed;#0284c7" dur="6s" repeatCount="indefinite"/>
+      <stop offset="50%" stop-color="#EA580C" stop-opacity="0.45">
+        <animate attributeName="stop-color" values="#EA580C;#E11D48;#BE123C;#DC2626;#EA580C" dur="6s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#059669" stop-opacity="0.6">
-        <animate attributeName="stop-color" values="#059669;#e11d48;#7c3aed;#0284c7;#059669" dur="6s" repeatCount="indefinite"/>
+      <stop offset="100%" stop-color="#BE123C" stop-opacity="0.65">
+        <animate attributeName="stop-color" values="#BE123C;#DC2626;#EA580C;#E11D48;#BE123C" dur="6s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
 
     <!-- Subtle Ambient Glow Pulse -->
     <radialGradient id="ambientGlowLight" cx="50%" cy="30%" r="60%">
-      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.04">
+      <stop offset="0%" stop-color="#E11D48" stop-opacity="0.05">
         <animate attributeName="stop-opacity" values="0.02;0.08;0.02" dur="4s" repeatCount="indefinite"/>
       </stop>
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
@@ -56,13 +56,13 @@
     .colon-light { fill: #64748b; }
     .string-light { fill: #1e293b; }
     .highlight-string-light { fill: #0369a1; font-weight: 600; }
-    .math-string-light { fill: #7c3aed; font-weight: 600; }
+    .math-string-light { fill: #BE123C; font-weight: 600; }
     .array-bracket-light { fill: #d97706; }
     .array-item-light { fill: #059669; font-weight: 600; }
 
     /* Terminal Blinking Cursor */
     .cursor-light {
-      fill: #0284c7;
+      fill: #DC2626;
       font-family: "Fira Code", monospace;
       font-weight: 700;
       animation: blink 1s step-start infinite;

@@ -8,20 +8,20 @@
 
     <!-- Animated Flowing Border Gradient -->
     <linearGradient id="borderGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#8b5cf6">
-        <animate attributeName="stop-color" values="#8b5cf6;#38bdf8;#10b981;#ec4899;#8b5cf6" dur="6s" repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#FF2A55">
+        <animate attributeName="stop-color" values="#FF2A55;#EA580C;#E11D48;#BE123C;#FF2A55" dur="6s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" stop-color="#38bdf8">
-        <animate attributeName="stop-color" values="#38bdf8;#10b981;#ec4899;#8b5cf6;#38bdf8" dur="6s" repeatCount="indefinite"/>
+      <stop offset="50%" stop-color="#EA580C">
+        <animate attributeName="stop-color" values="#EA580C;#E11D48;#BE123C;#FF2A55;#EA580C" dur="6s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#10b981">
-        <animate attributeName="stop-color" values="#10b981;#ec4899;#8b5cf6;#38bdf8;#10b981" dur="6s" repeatCount="indefinite"/>
+      <stop offset="100%" stop-color="#E11D48">
+        <animate attributeName="stop-color" values="#E11D48;#BE123C;#FF2A55;#EA580C;#E11D48" dur="6s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
 
     <!-- Subtle Ambient Glow Pulse -->
     <radialGradient id="ambientGlowDark" cx="50%" cy="30%" r="60%">
-      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.12">
+      <stop offset="0%" stop-color="#FF2A55" stop-opacity="0.12">
         <animate attributeName="stop-opacity" values="0.08;0.18;0.08" dur="4s" repeatCount="indefinite"/>
       </stop>
       <stop offset="100%" stop-color="#0b0f19" stop-opacity="0"/>
@@ -56,13 +56,13 @@
     .colon { fill: #94a3b8; }
     .string { fill: #a5d6ff; }
     .highlight-string { fill: #38bdf8; font-weight: 600; }
-    .math-string { fill: #c084fc; font-weight: 600; }
+    .math-string { fill: #FB7185; font-weight: 600; }
     .array-bracket { fill: #fbbf24; }
     .array-item { fill: #86efac; }
 
     /* Terminal Blinking Cursor */
     .cursor-dark {
-      fill: #38bdf8;
+      fill: #FF2A55;
       font-family: "Fira Code", monospace;
       font-weight: 700;
       animation: blink 1s step-start infinite;

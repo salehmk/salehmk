@@ -8,13 +8,13 @@
     <!-- Animated Flowing Border Gradient -->
     <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" class="stop-border-1">
-        <animate attributeName="stop-color" values="#8b5cf6;#38bdf8;#10b981;#ec4899;#8b5cf6" dur="6s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#FF2A55;#EA580C;#E11D48;#BE123C;#FF2A55" dur="6s" repeatCount="indefinite"/>
       </stop>
       <stop offset="50%" class="stop-border-2">
-        <animate attributeName="stop-color" values="#38bdf8;#10b981;#ec4899;#8b5cf6;#38bdf8" dur="6s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#EA580C;#E11D48;#BE123C;#FF2A55;#EA580C" dur="6s" repeatCount="indefinite"/>
       </stop>
       <stop offset="100%" class="stop-border-3">
-        <animate attributeName="stop-color" values="#10b981;#ec4899;#8b5cf6;#38bdf8;#10b981" dur="6s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#E11D48;#BE123C;#FF2A55;#EA580C;#E11D48" dur="6s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
 
@@ -40,10 +40,10 @@
     /* Default Dark Mode */
     .stop-bg-1 { stop-color: #0b0f19; }
     .stop-bg-2 { stop-color: #111827; }
-    .stop-border-1 { stop-color: #8b5cf6; }
-    .stop-border-2 { stop-color: #38bdf8; }
-    .stop-border-3 { stop-color: #10b981; }
-    .stop-glow { stop-color: #8b5cf6; stop-opacity: 0.12; }
+    .stop-border-1 { stop-color: #FF2A55; }
+    .stop-border-2 { stop-color: #EA580C; }
+    .stop-border-3 { stop-color: #E11D48; }
+    .stop-glow { stop-color: #FF2A55; stop-opacity: 0.12; }
     .stop-glow-end { stop-color: #0b0f19; }
     .stop-header-1 { stop-color: #162032; }
     .stop-header-2 { stop-color: #0f172a; }
@@ -55,11 +55,11 @@
     .colon { fill: #94a3b8; }
     .string { fill: #a5d6ff; }
     .highlight-string { fill: #38bdf8; font-weight: 600; }
-    .math-string { fill: #c084fc; font-weight: 600; }
+    .math-string { fill: #FB7185; font-weight: 600; }
     .array-bracket { fill: #fbbf24; }
     .array-item { fill: #86efac; }
     .cursor {
-      fill: #38bdf8;
+      fill: #FF2A55;
       font-family: "Fira Code", monospace;
       font-weight: 700;
       animation: blink 1s step-start infinite;
@@ -74,7 +74,10 @@
     @media (prefers-color-scheme: light) {
       .stop-bg-1 { stop-color: #ffffff; }
       .stop-bg-2 { stop-color: #f8fafc; }
-      .stop-glow { stop-color: #7c3aed; stop-opacity: 0.05; }
+      .stop-border-1 { stop-color: #DC2626; }
+      .stop-border-2 { stop-color: #EA580C; }
+      .stop-border-3 { stop-color: #BE123C; }
+      .stop-glow { stop-color: #E11D48; stop-opacity: 0.05; }
       .stop-glow-end { stop-color: #ffffff; }
       .stop-header-1 { stop-color: #ffffff; }
       .stop-header-2 { stop-color: #f1f5f9; }
@@ -85,10 +88,10 @@
       .colon { fill: #64748b; }
       .string { fill: #1e293b; }
       .highlight-string { fill: #0369a1; }
-      .math-string { fill: #7c3aed; }
+      .math-string { fill: #BE123C; font-weight: 600; }
       .array-bracket { fill: #d97706; }
       .array-item { fill: #059669; font-weight: 600; }
-      .cursor { fill: #0284c7; }
+      .cursor { fill: #DC2626; }
     }
   </style>
 
