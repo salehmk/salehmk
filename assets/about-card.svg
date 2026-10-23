@@ -18,36 +18,33 @@
       </stop>
     </linearGradient>
 
-    <!-- Ambient Glow Pulse -->
-    <radialGradient id="ambientGlow" cx="50%" cy="30%" r="60%">
-      <stop offset="0%" class="stop-glow">
-        <animate attributeName="stop-opacity" values="0.08;0.18;0.08" dur="4s" repeatCount="indefinite"/>
+    <!-- Pulsing Red Heartbeat Glow behind Code Text -->
+    <radialGradient id="textPulse" cx="45%" cy="58%" r="48%">
+      <animate attributeName="r" values="36%;54%;36%" dur="3.2s" repeatCount="indefinite"/>
+      <stop offset="0%" class="stop-pulse-1">
+        <animate attributeName="stop-opacity" values="0.12;0.40;0.12" dur="3.2s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" class="stop-glow-end" stop-opacity="0"/>
+      <stop offset="42%" class="stop-pulse-2">
+        <animate attributeName="stop-opacity" values="0.06;0.24;0.06" dur="3.2s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="72%" class="stop-pulse-3">
+        <animate attributeName="stop-opacity" values="0.02;0.10;0.02" dur="3.2s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" class="stop-pulse-end" stop-opacity="0"/>
     </radialGradient>
-
-    <linearGradient id="headerBg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" class="stop-header-1"/>
-      <stop offset="100%" class="stop-header-2"/>
-    </linearGradient>
-
-    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
-      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.3"/>
-    </filter>
   </defs>
 
   <style>
     /* Default Dark Mode */
-    .stop-bg-1 { stop-color: #0b0f19; }
-    .stop-bg-2 { stop-color: #111827; }
     .stop-border-1 { stop-color: #FF2A55; }
     .stop-border-2 { stop-color: #EA580C; }
     .stop-border-3 { stop-color: #E11D48; }
-    .stop-glow { stop-color: #FF2A55; stop-opacity: 0.12; }
-    .stop-glow-end { stop-color: #0b0f19; }
-    .stop-header-1 { stop-color: #162032; }
-    .stop-header-2 { stop-color: #0f172a; }
-    .header-line { stroke: #1e293b; }
+    .stop-pulse-1 { stop-color: #FF2A55; stop-opacity: 0.32; }
+    .stop-pulse-2 { stop-color: #E11D48; stop-opacity: 0.18; }
+    .stop-pulse-3 { stop-color: #881337; stop-opacity: 0.08; }
+    .stop-pulse-end { stop-color: #FF2A55; }
+    .header-rect { fill: #161b22; fill-opacity: 0.45; }
+    .header-line { stroke: #30363d; }
     .title-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace; font-size: 13px; fill: #94a3b8; font-weight: 500; letter-spacing: 0.5px; }
     .code-text { font-family: "Fira Code", "JetBrains Mono", Consolas, "Courier New", monospace; font-size: 13.5px; }
     .brace { fill: #f43f5e; font-weight: 700; }
@@ -72,16 +69,15 @@
 
     /* Light Mode */
     @media (prefers-color-scheme: light) {
-      .stop-bg-1 { stop-color: #ffffff; }
-      .stop-bg-2 { stop-color: #f8fafc; }
       .stop-border-1 { stop-color: #DC2626; }
       .stop-border-2 { stop-color: #EA580C; }
       .stop-border-3 { stop-color: #BE123C; }
-      .stop-glow { stop-color: #E11D48; stop-opacity: 0.05; }
-      .stop-glow-end { stop-color: #ffffff; }
-      .stop-header-1 { stop-color: #ffffff; }
-      .stop-header-2 { stop-color: #f1f5f9; }
-      .header-line { stroke: #e2e8f0; }
+      .stop-pulse-1 { stop-color: #E11D48; stop-opacity: 0.14; }
+      .stop-pulse-2 { stop-color: #BE123C; stop-opacity: 0.08; }
+      .stop-pulse-3 { stop-color: #9F1239; stop-opacity: 0.04; }
+      .stop-pulse-end { stop-color: #E11D48; }
+      .header-rect { fill: #f6f8fa; fill-opacity: 0.55; }
+      .header-line { stroke: #d0d7de; }
       .title-text { fill: #475569; font-weight: 600; }
       .brace { fill: #e11d48; }
       .key { fill: #0284c7; }
@@ -95,14 +91,15 @@
     }
   </style>
 
-  <!-- Main Card Container -->
-  <rect x="2" y="2" width="796" height="286" rx="14" fill="url(#cardBg)" stroke="url(#borderGrad)" stroke-width="1.8" filter="url(#shadow)"/>
-  <!-- Ambient Inner Glow -->
-  <rect x="2" y="2" width="796" height="286" rx="14" fill="url(#ambientGlow)"/>
+  <!-- Main Card Container: Transparent -->
+  <rect x="2" y="2" width="796" height="286" rx="14" fill="none" stroke="url(#borderGrad)" stroke-width="1.8"/>
+
+  <!-- Pulsing Red Glow Layer directly behind Code Text -->
+  <rect x="2" y="44" width="796" height="244" rx="14" fill="url(#textPulse)"/>
 
   <!-- Window Header -->
-  <rect x="2" y="2" width="796" height="42" rx="14" fill="url(#headerBg)"/>
-  <rect x="2" y="32" width="796" height="12" fill="url(#headerBg)"/>
+  <rect x="2" y="2" width="796" height="42" rx="14" class="header-rect"/>
+  <rect x="2" y="32" width="796" height="12" class="header-rect"/>
   <line x1="2" y1="44" x2="798" y2="44" class="header-line" stroke-width="1.2"/>
 
   <!-- macOS Window Controls with Glossy Details -->

@@ -19,24 +19,20 @@
       </stop>
     </linearGradient>
 
-    <!-- Subtle Ambient Glow Pulse -->
-    <radialGradient id="ambientGlowLight" cx="50%" cy="30%" r="60%">
-      <stop offset="0%" stop-color="#E11D48" stop-opacity="0.05">
-        <animate attributeName="stop-opacity" values="0.02;0.08;0.02" dur="4s" repeatCount="indefinite"/>
+    <!-- Pulsing Red Heartbeat Glow behind Code Text (Light Mode) -->
+    <radialGradient id="textPulseLight" cx="45%" cy="58%" r="48%">
+      <animate attributeName="r" values="36%;54%;36%" dur="3.2s" repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#E11D48" stop-opacity="0.14">
+        <animate attributeName="stop-opacity" values="0.05;0.18;0.05" dur="3.2s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="42%" stop-color="#BE123C" stop-opacity="0.08">
+        <animate attributeName="stop-opacity" values="0.02;0.10;0.02" dur="3.2s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="72%" stop-color="#9F1239" stop-opacity="0.04">
+        <animate attributeName="stop-opacity" values="0.01;0.05;0.01" dur="3.2s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#E11D48" stop-opacity="0"/>
     </radialGradient>
-
-    <!-- Header Gradient -->
-    <linearGradient id="headerBgLight" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="100%" stop-color="#f1f5f9"/>
-    </linearGradient>
-
-    <!-- Drop Shadow Filter -->
-    <filter id="shadowLight" x="-5%" y="-5%" width="110%" height="110%">
-      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#475569" flood-opacity="0.12"/>
-    </filter>
   </defs>
 
   <style>
@@ -74,15 +70,16 @@
     }
   </style>
 
-  <!-- Main Card Container with Animated Border -->
-  <rect x="2" y="2" width="796" height="286" rx="14" fill="url(#cardBgLight)" stroke="url(#borderGradLight)" stroke-width="1.8" filter="url(#shadowLight)"/>
-  <!-- Ambient Inner Glow -->
-  <rect x="2" y="2" width="796" height="286" rx="14" fill="url(#ambientGlowLight)"/>
+  <!-- Main Card Container: Transparent to blend with GitHub background -->
+  <rect x="2" y="2" width="796" height="286" rx="14" fill="none" stroke="url(#borderGradLight)" stroke-width="1.8"/>
 
-  <!-- Window Header -->
-  <rect x="2" y="2" width="796" height="42" rx="14" fill="url(#headerBgLight)"/>
-  <rect x="2" y="32" width="796" height="12" fill="url(#headerBgLight)"/>
-  <line x1="2" y1="44" x2="798" y2="44" stroke="#e2e8f0" stroke-width="1.2"/>
+  <!-- Pulsing Red Glow Layer directly behind Code Text -->
+  <rect x="2" y="44" width="796" height="244" rx="14" fill="url(#textPulseLight)"/>
+
+  <!-- Window Header: Sleek semi-transparent bar -->
+  <rect x="2" y="2" width="796" height="42" rx="14" fill="#f6f8fa" fill-opacity="0.55"/>
+  <rect x="2" y="32" width="796" height="12" fill="#f6f8fa" fill-opacity="0.55"/>
+  <line x1="2" y1="44" x2="798" y2="44" stroke="#d0d7de" stroke-width="1.2"/>
 
   <!-- macOS Window Controls with Glossy Details -->
   <circle cx="24" cy="22" r="6" fill="#ff5f56"/>
