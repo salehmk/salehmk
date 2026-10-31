@@ -116,14 +116,14 @@
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/salehmk/salehmk/output/stats-dark.svg" />
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/salehmk/salehmk/output/stats-light.svg" />
-      <img src="https://raw.githubusercontent.com/salehmk/salehmk/output/stats-dark.svg" alt="Saleh's GitHub Stats" height="205" />
+      <img src="https://raw.githubusercontent.com/salehmk/salehmk/output/stats-dark.svg" alt="Saleh's GitHub Stats" height="180" />
     </picture>
   </a>
   <a href="https://github.com/salehmk">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/salehmk/salehmk/output/languages-dark.svg" />
       <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/salehmk/salehmk/output/languages-light.svg" />
-      <img src="https://raw.githubusercontent.com/salehmk/salehmk/output/languages-dark.svg" alt="Most Used Languages" height="205" />
+      <img src="https://raw.githubusercontent.com/salehmk/salehmk/output/languages-dark.svg" alt="Most Used Languages" height="180" />
     </picture>
   </a>
 </div>
