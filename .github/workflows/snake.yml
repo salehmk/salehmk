@@ -2,8 +2,8 @@ name: Profile Animations & Stats Updater
 
 on:
   schedule:
-    # Run every 8 hours to keep animation and metrics fresh
-    - cron: "0 */8 * * *"
+    # Run every 4 hours to keep animation and metrics fresh
+    - cron: "0 */4 * * *"
   workflow_dispatch:
   push:
     branches:
