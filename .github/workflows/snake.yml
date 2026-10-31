@@ -68,9 +68,9 @@ jobs:
           fetch_svg "https://github-readme-stats.shion.dev/api?username=salehmk&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0D1117&title_color=FF2A55&icon_color=FF2A55&text_color=FFFFFF" "dist/stats-dark.svg"
           fetch_svg "https://github-readme-stats.shion.dev/api?username=salehmk&show_icons=true&include_all_commits=true&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=BE123C&icon_color=DC2626&text_color=0F172A" "dist/stats-light.svg"
 
-          # 2. Top Languages Cards
-          fetch_svg "https://github-readme-stats.shion.dev/api/top-langs/?username=salehmk&layout=donut&hide_border=true&bg_color=0D1117&title_color=FF2A55&text_color=FFFFFF" "dist/languages-dark.svg"
-          fetch_svg "https://github-readme-stats.shion.dev/api/top-langs/?username=salehmk&layout=donut&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=BE123C&text_color=0F172A" "dist/languages-light.svg"
+          # 2. Top Languages Cards (Compact Progress Bar)
+          fetch_svg "https://github-readme-stats.shion.dev/api/top-langs/?username=salehmk&layout=compact&card_width=350&hide_border=true&bg_color=0D1117&title_color=FF2A55&text_color=FFFFFF" "dist/languages-dark.svg"
+          fetch_svg "https://github-readme-stats.shion.dev/api/top-langs/?username=salehmk&layout=compact&card_width=350&hide_border=false&border_color=D0D7DE&bg_color=FFFFFF&title_color=BE123C&text_color=0F172A" "dist/languages-light.svg"
 
           # 3. GitHub Streak Stats
           fetch_svg "https://streak-stats.demolab.com/?user=salehmk&hide_border=true&background=0D1117&ring=FF2A55&fire=FF2A55&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FF2A55&sideLabels=FF2A55&dates=FFFFFF&stroke=30363D" "dist/streak-dark.svg"
