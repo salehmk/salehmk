@@ -55,11 +55,13 @@ jobs:
             local out="$2"
             local tmp="${out}.tmp"
             echo "Fetching $out..."
-            if curl -s -f -m 15 "$url" -o "$tmp" && grep -q "<svg" "$tmp"; then
+            if curl -s -f -m 20 "$url" -o "$tmp" && \
+               grep -q "<svg" "$tmp" && \
+               ! grep -qiE "Failed to retrieve|Something went wrong|Could not resolve|GitHub API issue" "$tmp"; then
               mv "$tmp" "$out"
               echo "Successfully updated $out"
             else
-              echo "Warning: Failed to fetch $url or invalid SVG, retaining cached copy"
+              echo "Warning: Failed to fetch $url or received an error SVG, retaining healthy cached copy"
               rm -f "$tmp"
             fi
           }
