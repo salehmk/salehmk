@@ -9,13 +9,10 @@
   </h1>
 
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=E11D48&center=true&vCenter=true&width=580&lines=M.Sc.+in+Mathematics+%7C+Data+Analyst;BigQuery+ML+%26+Model+Training;Mathematical+Modeling+%26+Statistics;Python+%26+Advanced+SQL" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=E11D48&center=true&vCenter=true&width=600&lines=M.Sc.+in+Mathematics+%7C+Data+Analyst;SQL+%26+Google+BigQuery+Analytics;Power+BI+%7C+DAX+%26+Star+Schema;Python+%26+Applied+BigQuery+ML" alt="Typing SVG" />
   </a>
 
   <p align="center">
-    <a href="https://www.linkedin.com/in/" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-    </a>
     <a href="https://github.com/salehmk?tab=repositories">
       <img src="https://img.shields.io/badge/Portfolio-E11D48?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio" />
     </a>
@@ -42,39 +39,42 @@
 
 | Dimension | Focus & Key Highlights |
 | :--- | :--- |
-| <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Graduation%20Cap.png" width="22" height="22" vertical-align="middle" /> **Academic Foundation** | **Master of Science (M.Sc.) in Mathematics** — Advanced analytical problem solving, probability, and linear algebra |
-| <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" width="22" height="22" vertical-align="middle" /> **Cloud Machine Learning** | **Google Cloud BigQuery ML** — Developing, training, and deploying scalable predictive models on cloud data platforms |
-| <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Compass.png" width="22" height="22" vertical-align="middle" /> **Mathematical Rigor** | Mathematical modeling, statistical inference, calculus, and optimization for deep predictive data insights |
-| <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Fire.png" width="22" height="22" vertical-align="middle" /> **Core Data Stack** | Advanced SQL, Python (NumPy, Pandas), and high-performance data querying |
-| <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" width="22" height="22" vertical-align="middle" /> **Collaborations** | Open to high-impact initiatives in **Machine Learning**, **Data Science**, and **Applied Mathematics** |
+| <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Graduation%20Cap.png" width="22" height="22" vertical-align="middle" /> **Academic Foundation** | **M.Sc. in Mathematics** — Strong foundation in probability, statistical inference, linear algebra, and optimization |
+| <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Compass.png" width="22" height="22" vertical-align="middle" /> **BI & Data Modeling** | **Power BI (Desktop & Service)** — Star Schema design, Power Query ETL, DAX measures, and Row-Level Security (RLS) |
+| <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" width="22" height="22" vertical-align="middle" /> **SQL & BigQuery ML** | **Google BigQuery** — Analytical querying (Joins, CTEs, Window Functions) and introductory BigQuery ML models |
+| <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Fire.png" width="22" height="22" vertical-align="middle" /> **Python & Analytics** | Data cleaning, exploratory data analysis (EDA), and KPI reporting with **Python (Pandas, NumPy)** & **Jupyter** |
+| <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" width="22" height="22" vertical-align="middle" /> **Collaborations** | Open to junior roles and projects in **Data Analytics**, **Business Intelligence**, and **Applied Statistics** |
 
 
 ---
 
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" alt="Tech Stack" width="28" height="28" vertical-align="middle" /> Tech Stack
 
-#### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Brain.png" width="22" height="22" vertical-align="middle" /> Mathematics & Data Science
+#### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Cloud.png" width="22" height="22" vertical-align="middle" /> SQL, Cloud & Databases
 <p>
-  <img src="https://img.shields.io/badge/Mathematics-M.Sc.-E11D48?style=for-the-badge" alt="Mathematics" />
-  <img src="https://img.shields.io/badge/Statistics-Probability-0284C7?style=for-the-badge" alt="Statistics" />
-  <img src="https://img.shields.io/badge/Machine_Learning-FF6F00?style=for-the-badge" alt="Machine Learning" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge" alt="SQL" />
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
-</p>
-
-#### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Cloud.png" width="22" height="22" vertical-align="middle" /> Cloud & BigQuery ML
-<p>
-  <img src="https://img.shields.io/badge/Google_Cloud_BigQuery-669DF6?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Google Cloud BigQuery" />
+  <img src="https://img.shields.io/badge/Google_BigQuery-669DF6?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Google BigQuery" />
   <img src="https://img.shields.io/badge/BigQuery_ML-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="BigQuery ML" />
-</p>
-
-#### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Compass.png" width="22" height="22" vertical-align="middle" /> Databases & Querying
-<p>
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge" alt="SQL" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
   <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
+</p>
+
+#### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Compass.png" width="22" height="22" vertical-align="middle" /> Business Intelligence & Data Modeling
+<p>
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge" alt="Power BI" />
+  <img src="https://img.shields.io/badge/Power_Query-E11D48?style=for-the-badge" alt="Power Query" />
+  <img src="https://img.shields.io/badge/DAX-BE123C?style=for-the-badge" alt="DAX" />
+  <img src="https://img.shields.io/badge/Star_Schema_%26_RLS-0F172A?style=for-the-badge" alt="Star Schema and RLS" />
+</p>
+
+#### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Brain.png" width="22" height="22" vertical-align="middle" /> Python, Analytics & Mathematics
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" />
+  <img src="https://img.shields.io/badge/Mathematics-M.Sc.-E11D48?style=for-the-badge" alt="Mathematics" />
+  <img src="https://img.shields.io/badge/Statistics_%26_Probability-0284C7?style=for-the-badge" alt="Statistics and Probability" />
 </p>
 
 #### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" width="22" height="22" vertical-align="middle" /> Tools & Environments
@@ -90,10 +90,10 @@
 
 | Project | Description | Tech Stack | Link |
 | :--- | :--- | :--- | :--- |
-| **[asac-sql-portfolio](https://github.com/salehmk/asac-sql-portfolio)** | Advanced SQL queries, schema design, aggregations, and business data analysis. | `SQL` `RDBMS` | [View Repo](https://github.com/salehmk/asac-sql-portfolio) |
-| **[Sunnah-Data](https://github.com/salehmk/Sunnah-Data)** | Data collection, text processing, and analysis using interactive computational notebooks. | `Python` `Jupyter` `NLP` | [View Repo](https://github.com/salehmk/Sunnah-Data) |
-| **[football-logos](https://github.com/salehmk/football-logos)** | Image and data exploration project analyzing sports club branding and classification. | `Python` `Jupyter` `Data Science` | [View Repo](https://github.com/salehmk/football-logos) |
-| **[ZipCompressor](https://github.com/salehmk/ZipCompressor)** | Python automation script to compress files and directories individually with clean archiving. | `Python` `Automation` `Utility` | [View Repo](https://github.com/salehmk/ZipCompressor) |
+| **[asac-sql-portfolio](https://github.com/salehmk/asac-sql-portfolio)** | Analytical BigQuery SQL solutions addressing business questions, data quality checks, and KPI reporting. | `BigQuery SQL` `CTEs` `KPIs` | [View Repo](https://github.com/salehmk/asac-sql-portfolio) |
+| **[Sunnah-Data](https://github.com/salehmk/Sunnah-Data)** | Structured Arabic text collection and notebook exploration in Python. | `Python` `Jupyter` `Datasets` | [View Repo](https://github.com/salehmk/Sunnah-Data) |
+| **[football-logos](https://github.com/salehmk/football-logos)** | Collection and basic organization of football club logo assets with Python. | `Python` `Jupyter` | [View Repo](https://github.com/salehmk/football-logos) |
+| **[ZipCompressor](https://github.com/salehmk/ZipCompressor)** | Python CLI utility to compress and archive files and directories individually. | `Python` `Automation` | [View Repo](https://github.com/salehmk/ZipCompressor) |
 
 ---
 

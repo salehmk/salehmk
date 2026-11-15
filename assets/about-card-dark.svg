@@ -106,19 +106,19 @@
     </text>
 
     <text x="24" y="72">
-      <tspan class="key">"ml_platform"</tspan><tspan class="colon">: </tspan><tspan class="highlight-string">"Google Cloud BigQuery (BigQuery ML)"</tspan><tspan class="colon">,</tspan>
+      <tspan class="key">"core_stack"</tspan><tspan class="colon">: </tspan><tspan class="highlight-string">"BigQuery SQL, Power BI &amp; BigQuery ML"</tspan><tspan class="colon">,</tspan>
     </text>
 
     <text x="24" y="96">
-      <tspan class="key">"focus"</tspan><tspan class="colon">: </tspan><tspan class="string">"Mathematical Modeling, Data Analytics &amp; Machine Learning"</tspan><tspan class="colon">,</tspan>
+      <tspan class="key">"focus"</tspan><tspan class="colon">: </tspan><tspan class="string">"Data Analytics, Star Schema Modeling &amp; Applied ML"</tspan><tspan class="colon">,</tspan>
     </text>
 
     <text x="24" y="120">
       <tspan class="key">"strengths"</tspan><tspan class="colon">: </tspan><tspan class="array-bracket">[</tspan>
-      <tspan class="array-item">"Probability &amp; Stats"</tspan><tspan class="colon">, </tspan>
-      <tspan class="array-item">"Linear Algebra"</tspan><tspan class="colon">, </tspan>
       <tspan class="array-item">"SQL &amp; BigQuery"</tspan><tspan class="colon">, </tspan>
-      <tspan class="array-item">"Python"</tspan>
+      <tspan class="array-item">"Power BI &amp; DAX"</tspan><tspan class="colon">, </tspan>
+      <tspan class="array-item">"Python"</tspan><tspan class="colon">, </tspan>
+      <tspan class="array-item">"Stats"</tspan>
       <tspan class="array-bracket">]</tspan><tspan class="colon">,</tspan>
     </text>
 
